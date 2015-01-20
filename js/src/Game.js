@@ -21,7 +21,11 @@ function Game(dataUrl, stageId) {
             height: height
         });
 
-
+        stage.on('DEFENDER_SPAWN',function(data){
+           console.log(data);
+        }).on('ATTACKER_SPAWN',function(data){
+            console.log(data);
+        });
         var frameCounter = 0;
         var animation = new Kinetic.Animation(function (frame) {
             if (!self.ready) {
@@ -43,6 +47,10 @@ function Game(dataUrl, stageId) {
         self.browser.on('draw', function (event, frame) {
             stage.draw();
         }).on('update', function (event, frame) {
+            if(dispatcher.finished){
+                animation.stop();
+                return false;
+            }
             dispatcher.update(frame);
         });
 
