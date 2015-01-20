@@ -7,6 +7,8 @@ function Grunt(config){
     };
 
     this.___init(baseConfig);
-
+    this.on('MOVETO',function(data){
+        console.log(data);
+    });
 }
 Kinetic.Util.extend(Grunt, Kinetic.Image);

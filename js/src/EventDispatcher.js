@@ -26,6 +26,6 @@ function EventDispatcher(){
             this.finished = true;
             return false;
         }
-        this.stage.fire(currentEvent.type,currentEvent);
+        this.stage.fire(currentEvent.type,currentEvent,true);
     }
 }
