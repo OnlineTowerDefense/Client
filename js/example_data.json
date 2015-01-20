@@ -19,8 +19,8 @@
     "time": 1000,
     "attackerType": "GRUNT",
     "id": 12,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -70,8 +70,8 @@
     "time": 2400,
     "attackerType": "GRUNT",
     "id": 13,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -121,8 +121,8 @@
     "time": 5000,
     "attackerType": "RUNNER",
     "id": 2,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -160,8 +160,8 @@
     "time": 5500,
     "attackerType": "RUNNER",
     "id": 3,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -211,8 +211,8 @@
     "time": 6000,
     "attackerType": "RUNNER",
     "id": 4,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -245,8 +245,8 @@
     "time": 6500,
     "attackerType": "RUNNER",
     "id": 5,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -296,8 +296,8 @@
     "time": 7000,
     "attackerType": "RUNNER",
     "id": 6,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -347,8 +347,8 @@
     "time": 7500,
     "attackerType": "RUNNER",
     "id": 7,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -369,8 +369,8 @@
     "time": 8000,
     "attackerType": "RUNNER",
     "id": 8,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -420,8 +420,8 @@
     "time": 8500,
     "attackerType": "RUNNER",
     "id": 9,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -471,8 +471,8 @@
     "time": 9000,
     "attackerType": "RUNNER",
     "id": 10,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
@@ -493,8 +493,8 @@
     "time": 9500,
     "attackerType": "RUNNER",
     "id": 11,
-    "x": 0,
-    "y": 0,
+    "x": 120,
+    "y": 120,
     "type": "ATTACKER_SPAWN"
   },
   {
