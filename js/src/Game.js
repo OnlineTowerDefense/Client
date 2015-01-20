@@ -14,17 +14,23 @@ function Game(dataUrl, stageId) {
         var height = self.browser.height();
         var width = self.browser.width();
         var dispatcher = new EventDispatcher();
-
+        var layer = new Kinetic.Layer({name: 'objects'});
         var stage = new Kinetic.Stage({
             container: self.stageId,
             width: width,
             height: height
         });
 
-        stage.on('DEFENDER_SPAWN',function(data){
-           console.log(data);
-        }).on('ATTACKER_SPAWN',function(data){
+        stage.on('DEFENDER_SPAWN', function (data) {
             console.log(data);
+        }).on('ATTACKER_SPAWN', function (data) {
+            var unitName = 'unit_' + data.id;
+            if (stage.find('#' + unitName).length != 0) {
+                return false;
+            }
+            var unit = new Grunt({x: data.x, y: data.y, id: unitName});
+            layer.add(unit);
+
         });
         var frameCounter = 0;
         var animation = new Kinetic.Animation(function (frame) {
@@ -35,7 +41,7 @@ function Game(dataUrl, stageId) {
             if (++frameCounter % game.maxFPS == 0) {
                 self.browser.trigger('draw', frame);
             }
-        });
+        },layer);
 
         $(window).on('resize', function () {
             var height = $(this).height();
@@ -47,14 +53,14 @@ function Game(dataUrl, stageId) {
         self.browser.on('draw', function (event, frame) {
             stage.draw();
         }).on('update', function (event, frame) {
-            if(dispatcher.finished){
+            if (dispatcher.finished) {
                 animation.stop();
                 return false;
             }
             dispatcher.update(frame);
         });
 
-        var layer = new Kinetic.Layer({name: 'objects'});
+
         stage.add(layer);
 
         dispatcher.setStage(stage);
