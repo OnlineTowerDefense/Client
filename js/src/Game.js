@@ -5,25 +5,32 @@ function Game(dataUrl, stageId) {
     this.maxFPS = 25;
     this.browser = $(document);
     this.dataUrl = dataUrl;
-    this.eventData = null;
+
     this.stageId = stageId;
-    this.stage = null;
+
 
     function init() {
         self.ready = false;
         var height = self.browser.height();
         var width = self.browser.width();
-
-        $.getJSON(self.dataUrl, function (data) {
-            self.ready = true;
-            self.eventData = data;
-        });
-
+        var dispatcher = new EventDispatcher();
 
         var stage = new Kinetic.Stage({
             container: self.stageId,
             width: width,
             height: height
+        });
+
+
+        var frameCounter = 0;
+        var animation = new Kinetic.Animation(function (frame) {
+            if (!self.ready) {
+                return false;
+            }
+            self.browser.trigger('update', frame);
+            if (++frameCounter % game.maxFPS == 0) {
+                self.browser.trigger('draw', frame);
+            }
         });
 
         $(window).on('resize', function () {
@@ -36,13 +43,20 @@ function Game(dataUrl, stageId) {
         self.browser.on('draw', function (event, frame) {
             stage.draw();
         }).on('update', function (event, frame) {
-            stage.fire('update', frame, true);
+            dispatcher.update(frame);
         });
 
         var layer = new Kinetic.Layer({name: 'objects'});
         stage.add(layer);
 
-        self.stage = stage;
+        dispatcher.setStage(stage);
+
+        $.getJSON(self.dataUrl, function (data) {
+            self.ready = true;
+            dispatcher.setData(data);
+            animation.start();
+        });
+
         self.initialized = true;
     }
 
@@ -50,18 +64,5 @@ function Game(dataUrl, stageId) {
         if (!this.initialized) {
             init();
         }
-        var game = this;
-        var frameCounter = 0;
-        var anim = new Kinetic.Animation(function (frame) {
-            if (!game.ready) {
-                return false;
-            }
-
-            game.browser.trigger('update', frame);
-            if (++frameCounter % game.maxFPS == 0) {
-                game.browser.trigger('draw', frame);
-            }
-        });
-        anim.start();
     }
 }
