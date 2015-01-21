@@ -22,7 +22,6 @@ function Grunt(config) {
             calculateSpeed(data.startingCoordinate,data.endingCoordinate,diff)
         }
 
-
     });
 
     this.on('update',function(){
