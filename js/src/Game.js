@@ -11,18 +11,19 @@ function Game(dataUrl, stageId) {
 
     function init() {
         self.ready = false;
-        var height = self.browser.height();
-        var width = self.browser.width();
+        var height = 840;
+        var width = 1080;
         var dispatcher = new EventDispatcher();
-        var layer = new Kinetic.Layer({name: 'objects'});
+        var layer = new Kinetic.Layer({id: 'objects'});
         var stage = new Kinetic.Stage({
             container: self.stageId,
             width: width,
             height: height
         });
+        layer.add(new Kinetic.Image({image:Kinetic.Assets.background}));
 
         stage.on('DEFENDER_SPAWN', function (data) {
-            console.log(data);
+
         }).on('ATTACKER_SPAWN', function (data) {
             var unitName = 'unit_' + data.id;
             if (stage.find('#' + unitName).length != 0) {
@@ -31,7 +32,12 @@ function Game(dataUrl, stageId) {
             var unit = new Grunt({x: data.x, y: data.y, id: unitName});
             layer.add(unit);
 
+        }).on('click',function(){
+
+
+
         });
+
         var frameCounter = 0;
         var animation = new Kinetic.Animation(function (frame) {
             if (!self.ready) {
@@ -43,12 +49,7 @@ function Game(dataUrl, stageId) {
             }
         },layer);
 
-        $(window).on('resize', function () {
-            var height = $(this).height();
-            var width = $(this).width();
-            stage.setHeight(height);
-            stage.setWidth(width);
-        });
+
 
         self.browser.on('draw', function (event, frame) {
             stage.draw();

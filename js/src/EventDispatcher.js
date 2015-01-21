@@ -3,29 +3,52 @@ function EventDispatcher(){
     this.stage = null;
     this.data = null;
     this.finished = false;
+    this.events = {};
+
     function getEventData(time){
-        for(var i = 0,il = self.data.length;i<il;i++){
-            var event = self.data[i];
-            if(time <= event.time){
-                return event;
+        for(var eventTime in self.events){
+            var events = self.events[eventTime];
+            if(time <= eventTime){
+                return events;
             }
-
         }
-
+        return false;
     }
     this.setStage = function(stage){
         this.stage = stage;
+
     };
     this.setData = function(data){
-        this.data = data;
+
+        for(var i = 0,il = data.length;i<il;i++){
+            var currentEvent = data[i];
+            var currentTime = currentEvent.time;
+            if(currentTime == undefined){
+                currentTime = currentEvent.startsAt;
+            }
+            if(this.events[currentTime] == undefined){
+                this.events[currentTime] = [];
+            }
+            this.events[currentTime].push(currentEvent);
+        }
+
     };
     this.update = function(frame){
-        if(!this.data && !this.stage){return false;}
-        var currentEvent = getEventData(~~frame.time);
-        if(currentEvent == undefined){
+        if(!this.events && !this.stage){return false;}
+        var currentEvents = getEventData(~~frame.time);
+        if(currentEvents == false){
             this.finished = true;
             return false;
         }
-        this.stage.fire(currentEvent.type,currentEvent,true);
+
+        for(var i= 0,il=currentEvents.length;i<il;i++){
+            var currentEvent = currentEvents[i];
+            this.stage.find('.object').each(function(obj){
+                obj.fire(currentEvent.type,currentEvent,true);
+            });
+            this.stage.fire(currentEvent.type,currentEvent);
+
+        }
+
     }
 }
