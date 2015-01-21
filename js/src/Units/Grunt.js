@@ -1,4 +1,5 @@
 function Grunt(config) {
+    var self = this;
     var baseConfig = {
         x: config.x,
         y: config.y,
@@ -6,15 +7,24 @@ function Grunt(config) {
         id: config.id,
         name:'object'
     };
-
+    this.speed = 0;
     this.___init(baseConfig);
 
+    function calculateSpeed(startingCoordinate,endingCoordinate,timeDiff){
+
+        var distance = Math.Util.distance(startingCoordinate.x,startingCoordinate.y,endingCoordinate.x,endingCoordinate.y);
+        self.speed = distance/timeDiff;
+        console.log(self.speed );
+    }
     this.on('MOVETO', function (data) {
-       var x = this.getX();
-        console.log(x);
-        x+=10;
-        this.setX(x);
+        if(this.speed == 0){
+            var diff = (data.endsAt - data.startsAt)/60;
+            calculateSpeed(data.startingCoordinate,data.endingCoordinate,diff)
+        }
+        this.setY(this.getY()+this.speed);
+
     });
+
 
 
 }
