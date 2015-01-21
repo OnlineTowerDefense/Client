@@ -58,6 +58,9 @@ function Game(dataUrl, stageId) {
                 animation.stop();
                 return false;
             }
+            stage.find('.object').each(function(obj){
+                obj.fire('update',frame);
+            });
             dispatcher.update(frame);
         });
 

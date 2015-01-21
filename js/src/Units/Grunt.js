@@ -18,14 +18,16 @@ function Grunt(config) {
     }
     this.on('MOVETO', function (data) {
         if(this.speed == 0){
-            var diff = (data.endsAt - data.startsAt)/60;
+            var diff = (data.endsAt - data.startsAt)/25;
             calculateSpeed(data.startingCoordinate,data.endingCoordinate,diff)
         }
-        this.setY(this.getY()+this.speed);
+
 
     });
 
-
+    this.on('update',function(){
+        this.setY(this.getY()+this.speed);
+    });
 
 }
 Kinetic.Util.extend(Grunt, Kinetic.Image);
