@@ -1,18 +1,18 @@
-Grunt = function(config){
+Runner = function(config){
     this._____init(config);
 };
-Grunt.prototype = {
+Runner.prototype = {
     _____init:function(config){
         var baseConfig = {
             x: config.x,
             y: config.y,
             id: config.id,
             name:'object',
-            image:Kinetic.Assets.grunt
+            image:Kinetic.Assets.runner
         };
         Unit.call(this, baseConfig);
-        this.className = 'Grunt';
+        this.className = 'Runner';
     }
 };
 
-Kinetic.Util.extend(Grunt, Unit);
+Kinetic.Util.extend(Runner, Unit);

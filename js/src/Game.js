@@ -29,12 +29,14 @@ function Game(dataUrl, stageId) {
             if (stage.find('#' + unitName).length != 0) {
                 return false;
             }
-            var unit = new Grunt({x: data.x, y: data.y, id: unitName});
+            if(data.attackerType == 'GRUNT'){
+                var unit = new Grunt({x: data.x, y: data.y, id: unitName});
+
+            }
+            if(data.attackerType == 'RUNNER'){
+                var unit = new Runner({x: data.x, y: data.y, id: unitName});
+            }
             layer.add(unit);
-
-        }).on('click',function(){
-
-
 
         });
 

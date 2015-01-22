@@ -5,5 +5,11 @@ Math.Util = {
     distance: function (x1, y1, x2, y2) {
         var squaredDistance = this.squaredDistance(x1, y1, x2, y2);
         return Math.sqrt(parseFloat(squaredDistance));
+    },
+    radToDeg: function (angleInRad) {
+        return angleInRad * 180 / Math.PI;
+    },
+    degToRad: function (angleInDeg) {
+        return angleInDeg * Math.PI / 180;
     }
 };
