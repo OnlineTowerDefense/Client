@@ -29,10 +29,11 @@ Unit.prototype = {
         }
     },
     lookAt:function(y,x){
+        this.rotate(0);
         var delta = this._getDelta(y,x);
         var angleTo = Math.atan2(delta.y,delta.x);
         this.setOffsetY(this.getHeight());
-        this.rotateDeg(Math.Util.radToDeg(angleTo));
+        this.rotate(Math.Util.radToDeg(angleTo));
     },
     _moveTo:function(data){
 

@@ -11,6 +11,7 @@ function Game(dataUrl, stageId) {
 
     function init() {
         self.ready = false;
+
         var height = 840;
         var width = 1080;
         var dispatcher = new EventDispatcher();
@@ -46,7 +47,8 @@ function Game(dataUrl, stageId) {
                 return false;
             }
             self.browser.trigger('update', frame);
-            if (++frameCounter % game.maxFPS == 0) {
+            if (++frameCounter % self.maxFPS == 0) {
+
                 self.browser.trigger('draw', frame);
             }
         },layer);
@@ -54,6 +56,7 @@ function Game(dataUrl, stageId) {
 
 
         self.browser.on('draw', function (event, frame) {
+            console.log("draw");
             stage.draw();
         }).on('update', function (event, frame) {
             if (dispatcher.finished) {
