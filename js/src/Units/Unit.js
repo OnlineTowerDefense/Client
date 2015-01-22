@@ -48,6 +48,8 @@ Unit.prototype = {
         }
         if(this.currentEvent == null){
             this.currentEvent = data;
+            this.setX(data.startingCoordinate.x);
+            this.setY(data.startingCoordinate.y);
             this.lookAt(data.endingCoordinate.y,data.endingCoordinate.x);
         }
     },
