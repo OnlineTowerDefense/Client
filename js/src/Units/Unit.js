@@ -58,11 +58,21 @@ Unit.prototype = {
 
         var delta = this._getDelta(event.endingCoordinate.y,event.endingCoordinate.x);
         if(delta.x !== 0){
-            x+= this.speed;
+            if(delta.x > 0){
+                x+= this.speed;
+            }else{
+                x-= this.speed;
+            }
+
 
         }
         if(delta.y !== 0){
-            y+= this.speed;
+            if(delta.y > 0){
+                y+= this.speed;
+            }else{
+                y-= this.speed;
+            }
+
         }
         this.setX(x);
         this.setY(y);
