@@ -34,12 +34,9 @@ function EventDispatcher(){
 
     };
     this.update = function(frame){
-        if(!this.events && !this.stage){return false;}
+        if(this.events.length == 0 && !this.stage){return false;}
         var currentEvents = getEventData(~~frame.time);
-        if(currentEvents == false){
-            this.finished = true;
-            return false;
-        }
+
 
         for(var i= 0,il=currentEvents.length;i<il;i++){
             var currentEvent = currentEvents[i];
