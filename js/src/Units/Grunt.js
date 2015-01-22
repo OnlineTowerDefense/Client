@@ -14,7 +14,7 @@ function Grunt(config) {
     function calculateSpeed(startingCoordinate,endingCoordinate,timeDiff){
 
         var distance = Math.Util.distance(startingCoordinate.x,startingCoordinate.y,endingCoordinate.x,endingCoordinate.y);
-        self.speed = distance/timeDiff;
+        self.speed = (distance/timeDiff)/25;
 
     }
 
@@ -25,25 +25,28 @@ function Grunt(config) {
         }
 
         if(this.speed == 0){
-            var diff = (data.endsAt - data.startsAt)/25;
+            var diff = (data.endsAt - data.startsAt)/1000;
             calculateSpeed(data.startingCoordinate,data.endingCoordinate,diff)
         }
         if(this.currentEvent == null){
-
             this.currentEvent = data;
-            console.log('Added event',data);
         }
 
-        var deltaX = ( data.endingCoordinate.x - this.getX() );
-        var deltaY = (data.endingCoordinate.y - this.getY());
-
-        //this.setX(deltaX);
-        //this.setY(deltaY);
 
     });
     this.on('DO_MOVETO',function(data){
-       console.log(this.getId()+ ' is Moving');
 
+        var event = this.currentEvent;
+        var x = this.getX();
+        var y = this.getY();
+        var deltaX = (event.endingCoordinate.x - x);
+        var deltaY = (event.endingCoordinate.y - y);
+        if(deltaX !== 0){
+            this.setX(x+=this.speed);
+        }
+        if(deltaY !== 0){
+            this.setY(y+=this.speed);
+        }
     });
     this.on('update',function(data){
 
@@ -53,8 +56,6 @@ function Grunt(config) {
             var complete = time >= this.currentEvent.endsAt;
 
             if(complete){
-                console.log('finished event',this.currentEvent,time);
-
                 this.currentEvent = null;
                 return false;
             }
