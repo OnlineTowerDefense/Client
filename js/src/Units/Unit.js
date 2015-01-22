@@ -29,10 +29,11 @@ Unit.prototype = {
         }
     },
     lookAt:function(y,x){
+        this.rotate(0);
         var delta = this._getDelta(y,x);
         var angleTo = Math.atan2(delta.y,delta.x);
         this.setOffsetY(this.getHeight());
-        this.rotateDeg(Math.Util.radToDeg(angleTo));
+        this.rotate(Math.Util.radToDeg(angleTo));
     },
     _moveTo:function(data){
 
@@ -58,11 +59,21 @@ Unit.prototype = {
 
         var delta = this._getDelta(event.endingCoordinate.y,event.endingCoordinate.x);
         if(delta.x !== 0){
-            x+= this.speed;
+            if(delta.x > 0){
+                x+= this.speed;
+            }else{
+                x-= this.speed;
+            }
+
 
         }
         if(delta.y !== 0){
-            y+= this.speed;
+            if(delta.y > 0){
+                y+= this.speed;
+            }else{
+                y-= this.speed;
+            }
+
         }
         this.setX(x);
         this.setY(y);
