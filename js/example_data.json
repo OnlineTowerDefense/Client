@@ -86,7 +86,7 @@
             "y": 120
         },
         "endingCoordinate": {
-            "x": 240,
+            "x": 360,
             "y": 120
         },
         "type": "MOVETO"
@@ -96,7 +96,7 @@
         "startsAt": 82332,
         "endsAt": 92998,
         "startingCoordinate": {
-            "x": 240,
+            "x": 360,
             "y": 120
         },
         "endingCoordinate": {

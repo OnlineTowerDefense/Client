@@ -74,6 +74,21 @@ function Game(dataUrl, stageId) {
             }
 
             dispatcher.trigger(frame.time);
+        }).on('mousemove',function(event){
+            return false;
+            var objects = stage.find('.object')[0];
+             var deltaY = event.pageY -objects.getY();
+            var deltaX =  event.pageX -objects.getX();
+            var that = {x:objects.getX(),y:objects.getY()};
+            var vector = {x:event.pageX,y:event.pageY};
+            var angleParam1 = that.x*vector.y - that.y * vector.x;
+            var angleParam2 = that.x * vector.x + that.y * vector.x;
+
+            var angleBetween = Math.atan2(deltaY,deltaX);
+            var angle = Math.Util.radToDeg(angleBetween);
+            objects.rotate(angleBetween);
+            console.log(angle);
+           // console.log(event.pageX,event.pageY);
         });
 
 

@@ -8,7 +8,8 @@ Unit.prototype = {
         Kinetic.Image.call(this, config);
         this.className = 'Unit';
         this.speed = 0;
-
+        this.rotationAngle = 0;
+        this.rotate(0);
         this.on('MOVETO', function(data){
 
 
@@ -42,28 +43,34 @@ Unit.prototype = {
                 this.setY(currentY);
             }
 
+            var angleTo = Math.atan2(deltaY,deltaX);
+            var angle = Math.Util.radToDeg(angleTo);
+            if(angle !== this.rotationAngle){
+                //this.rotateDeg(0);
+                //this.rotateDeg(angle);
+
+                this.rotationAngle = angle;
+            }
 
         });
 
 
-
-        this.on('update',function(data){
-            this._update(data);
-        });
     },
+
     _getDelta:function(y,x){
         var myX = this.getX();
         var myY = this.getY();
         return {
-            x: x - myX,
-            y: y - myY
+            x: myX -x ,
+            y: myY -y
         }
     },
     lookAt:function(y,x){
-        this.rotate(0);
+        //this.rotate(0);
         var delta = this._getDelta(y,x);
         var angleTo = Math.atan2(delta.y,delta.x);
-        this.setOffsetY(this.getHeight());
+       // this.setOffsetY(this.getHeight());
+        console.log(angleTo);
         this.rotate(Math.Util.radToDeg(angleTo));
     },
     _update:function(data){
