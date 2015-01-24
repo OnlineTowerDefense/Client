@@ -7,3 +7,10 @@
     background: #000000;
     overflow: hidden;
 }
+
+#slider{
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

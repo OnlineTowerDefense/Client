@@ -1,7 +1,9 @@
 Unit = function(config){
     this.____init(config);
 };
+
 Unit.prototype = {
+
     ____init:function(config){
         Kinetic.Image.call(this, config);
         this.className = 'Unit';
@@ -9,7 +11,38 @@ Unit.prototype = {
 
         this.on('MOVETO', function(data){
 
-            this._moveTo(data)
+
+            if(data.currentTime >= data.endsAt){
+                return false;
+            }
+            var timeDelta = data.currentTime - data.startsAt;
+            var speedPerSecond = this.speed/1000;
+            var deltaX = data.endingCoordinate.x - data.startingCoordinate.x;
+            var deltaY = data.endingCoordinate.y - data.startingCoordinate.y;
+
+            var currentY = 0;
+            var currentX = 0;
+
+            if(deltaX !== 0){
+                currentX = data.startingCoordinate.x;
+                if(deltaX > 0){
+                    currentX+=(speedPerSecond * timeDelta);
+                }else{
+                    currentX-=(speedPerSecond * timeDelta);
+                }
+                this.setX(currentX);
+            }
+            if(deltaY !== 0){
+                currentY = data.startingCoordinate.y;
+                if(deltaY > 0){
+                    currentY+=(speedPerSecond * timeDelta);
+                }else{
+                    currentY-=(speedPerSecond * timeDelta);
+                }
+                this.setY(currentY);
+            }
+
+
         });
 
         this.on('DO_MOVETO',function(data){
@@ -46,10 +79,11 @@ Unit.prototype = {
             var diff = (data.endsAt - data.startsAt)/1000;
             this._calculateSpeed(data.startingCoordinate,data.endingCoordinate,diff)
         }
+
         if(this.currentEvent == null){
             this.currentEvent = data;
-            this.setX(data.startingCoordinate.x);
-            this.setY(data.startingCoordinate.y);
+            // this.setX(data.startingCoordinate.x);
+            //this.setY(data.startingCoordinate.y);
             this.lookAt(data.endingCoordinate.y,data.endingCoordinate.x);
         }
     },
@@ -77,6 +111,7 @@ Unit.prototype = {
             }
 
         }
+
         this.setX(x);
         this.setY(y);
     },
@@ -95,9 +130,13 @@ Unit.prototype = {
             }
         }
     },
+    _getDistance:function(startingCoordinate,endingCoordinate){
+        return Math.Util.distance(startingCoordinate.x,startingCoordinate.y,endingCoordinate.x,endingCoordinate.y);
+    },
     _calculateSpeed:function(startingCoordinate,endingCoordinate,timeDiff){
-        var distance = Math.Util.distance(startingCoordinate.x,startingCoordinate.y,endingCoordinate.x,endingCoordinate.y);
-        this.speed = (distance/timeDiff)/25;
+        var distance = this._getDistance(startingCoordinate,endingCoordinate);
+        this.speed = (distance/timeDiff);
+
     }
 };
 

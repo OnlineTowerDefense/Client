@@ -9,4 +9,5 @@ $(function(){
     loader.load();
 
     game.run();
+
 });

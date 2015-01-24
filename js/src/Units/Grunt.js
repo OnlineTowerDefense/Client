@@ -12,6 +12,7 @@ Grunt.prototype = {
         };
         Unit.call(this, baseConfig);
         this.className = 'Grunt';
+        this.speed = 30;
     }
 };
 

@@ -2,7 +2,7 @@ function Game(dataUrl, stageId) {
     var self = this;
     this.ready = false;
     this.initialized = false;
-    this.maxFPS = 25;
+    this.maxFPS = 60;
     this.browser = $(document);
     this.dataUrl = dataUrl;
 
@@ -37,26 +37,35 @@ function Game(dataUrl, stageId) {
             if(data.attackerType == 'RUNNER'){
                 var unit = new Runner({x: data.x, y: data.y, id: unitName});
             }
+
             layer.add(unit);
 
         });
 
-        var frameCounter = 0;
+        var ticksPerSecond = 25;
+        var skipTicks = 1000/ticksPerSecond;
+        var maxFrameSkip = 5;
+        var nextGameTick = new Date().getMilliseconds();
+        var interpolation = 0.0;
         var animation = new Kinetic.Animation(function (frame) {
             if (!self.ready) {
                 return false;
             }
-            self.browser.trigger('update', frame);
-            if (++frameCounter % self.maxFPS == 0) {
-
-                self.browser.trigger('draw', frame);
+            var loops = 0;
+            while(frame.time > nextGameTick && loops < maxFrameSkip){
+             //   self.browser.trigger('update', frame);
+                nextGameTick +=skipTicks;
+                loops++;
             }
-        },layer);
+            interpolation = (frame.time + skipTicks - nextGameTick) /skipTicks;
+
+            self.browser.trigger('draw', {frame:frame,interpolation:interpolation});
+        });
 
 
 
         self.browser.on('draw', function (event, frame) {
-            console.log("draw");
+
             stage.draw();
         }).on('update', function (event, frame) {
             if (dispatcher.finished) {
@@ -77,10 +86,20 @@ function Game(dataUrl, stageId) {
         $.getJSON(self.dataUrl, function (data) {
             self.ready = true;
             dispatcher.setData(data);
+            dispatcher.trigger(0);
             animation.start();
         });
 
         self.initialized = true;
+        $('#slider').slider({
+            min:0,
+            max:107664,
+            step:1,
+            slide:function(event,ui){
+               var value = ui.value;
+                dispatcher.trigger(value);
+            }
+        });
     }
 
     this.run = function () {

@@ -12,6 +12,7 @@ Runner.prototype = {
         };
         Unit.call(this, baseConfig);
         this.className = 'Runner';
+        this.speed = 50;
     }
 };
 
