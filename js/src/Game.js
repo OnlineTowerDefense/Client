@@ -53,7 +53,7 @@ function Game(dataUrl, stageId) {
             }
             var loops = 0;
             while(frame.time > nextGameTick && loops < maxFrameSkip){
-             //   self.browser.trigger('update', frame);
+                self.browser.trigger('update', frame);
                 nextGameTick +=skipTicks;
                 loops++;
             }
@@ -72,10 +72,8 @@ function Game(dataUrl, stageId) {
                 animation.stop();
                 return false;
             }
-            stage.find('.object').each(function(obj){
-                obj.fire('update',frame);
-            });
-            dispatcher.update(frame);
+
+            dispatcher.trigger(frame.time);
         });
 
 
@@ -97,6 +95,7 @@ function Game(dataUrl, stageId) {
             step:1,
             slide:function(event,ui){
                var value = ui.value;
+
                 dispatcher.trigger(value);
             }
         });
