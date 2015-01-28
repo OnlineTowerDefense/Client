@@ -8,7 +8,7 @@ Unit.prototype = {
         Kinetic.Image.call(this, config);
         this.className = 'Unit';
         this.speed = 0;
-        this.rotationAngle = 0;
+        this.rotationAngle = -1;
         this.rotate(0);
         this.on('MOVETO', function(data){
 
@@ -40,15 +40,22 @@ Unit.prototype = {
                 }else{
                     currentY-=(speedPerSecond * timeDelta);
                 }
+
                 this.setY(currentY);
             }
 
-            var angleTo = Math.atan2(deltaY,deltaX);
-            var angle = Math.Util.radToDeg(angleTo);
-            if(angle !== this.rotationAngle){
-                //this.rotateDeg(0);
-                //this.rotateDeg(angle);
+            var rad =  Math.atan2(deltaY,deltaX);
+            var angle = Math.Util.radToDeg(rad);
 
+            if(angle !== this.rotationAngle){
+
+
+                var origin = {x:this.getWidth()/2,y:this.getHeight()/2};
+              //  this.setOffset({x:-origin.x,y:-origin.y});
+
+                this.setRotation(angle);
+
+                //console.log(this.getOffset());
                 this.rotationAngle = angle;
             }
 
