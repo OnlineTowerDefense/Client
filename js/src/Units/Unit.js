@@ -12,7 +12,10 @@ Unit.prototype = {
         this.rotate(0);
         this.on('MOVETO', function(data){
 
-
+            var unitName = 'unit_' + data.attackerId;
+            if(unitName !== this.getId()){
+                return false;
+            }
             if(data.currentTime >= data.endsAt){
                 return false;
             }
@@ -67,16 +70,8 @@ Unit.prototype = {
         if(this.rotationAngle == angle){
             return false;
         }
-        var origin = {x:-this.getWidth()/2,y:-this.getHeight()/2};
-
-
-       // this.setOffset(origin);
-        var originalOffset = this.getOffset();
 
         this.setRotation(angle);
-
-        origin = {x:originalOffset.x+this.getWidth()/2,y:originalOffset.y+this.getHeight()/2};
-       // this.setOffset(origin);
 
         this.rotationAngle = angle;
     },

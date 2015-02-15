@@ -1,143 +1,519 @@
 [
-    {
-        "time": 0,
-        "towerType": "FLAMER",
-        "id": 3,
-        "x": 80,
-        "y": 360,
-        "type": "DEFENDER_SPAWN"
+  {
+    "time": 0,
+    "towerType": "PLASMA",
+    "id": 5,
+    "x": 200,
+    "y": 440,
+    "type": "DEFENDER_SPAWN"
+  },
+  {
+    "time": 0,
+    "towerType": "PLASMA",
+    "id": 6,
+    "x": 440,
+    "y": 280,
+    "type": "DEFENDER_SPAWN"
+  },
+  {
+    "time": 1000,
+    "attackerType": "GRUNT",
+    "id": 2,
+    "x": 120,
+    "y": 120,
+    "type": "ATTACKER_SPAWN"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 1000,
+    "endsAt": 18333,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 120
     },
-    {
-        "time": 0,
-        "towerType": "FLAMER",
-        "id": 4,
-        "x": 560,
-        "y": 160,
-        "type": "DEFENDER_SPAWN"
+    "endingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "time": 1000,
-        "attackerType": "GRUNT",
-        "id": 2,
-        "x": 120,
-        "y": 120,
-        "type": "ATTACKER_SPAWN"
+    "type": "MOVETO"
+  },
+  {
+    "time": 1000,
+    "attackerId": 2,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 1000,
+    "attackerId": 2,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 2400,
+    "attackerType": "GRUNT",
+    "id": 3,
+    "x": 120,
+    "y": 120,
+    "type": "ATTACKER_SPAWN"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 2400,
+    "endsAt": 19733,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 120
     },
-    {
-        "attackerId": 2,
-        "startsAt": 1000,
-        "endsAt": 18333,
-        "startingCoordinate": {
-            "x": 120,
-            "y": 120
-        },
-        "endingCoordinate": {
-            "x": 120,
-            "y": 640
-        },
-        "type": "MOVETO"
+    "endingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "time": 1000,
-        "attackerId": 2,
-        "towerId": 3,
-        "type": "TOWER_NEW_TARGET"
+    "type": "MOVETO"
+  },
+  {
+    "time": 3800,
+    "attackerType": "GRUNT",
+    "id": 4,
+    "x": 120,
+    "y": 120,
+    "type": "ATTACKER_SPAWN"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 3800,
+    "endsAt": 21133,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 120
     },
-    {
-        "time": 1000,
-        "attackerId": 2,
-        "towerId": 4,
-        "type": "TOWER_NEW_TARGET"
+    "endingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 18333,
-        "endsAt": 43666,
-        "startingCoordinate": {
-            "x": 120,
-            "y": 640
-        },
-        "endingCoordinate": {
-            "x": 880,
-            "y": 640
-        },
-        "type": "MOVETO"
+    "type": "MOVETO"
+  },
+  {
+    "time": 14367,
+    "attackerId": 2,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 14367,
+    "attackerId": 3,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 15767,
+    "attackerId": 3,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 15767,
+    "attackerId": 4,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 17167,
+    "attackerId": 4,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 18333,
+    "endsAt": 43666,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 43666,
-        "endsAt": 60999,
-        "startingCoordinate": {
-            "x": 880,
-            "y": 640
-        },
-        "endingCoordinate": {
-            "x": 880,
-            "y": 120
-        },
-        "type": "MOVETO"
+    "endingCoordinate": {
+      "x": 880,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 60999,
-        "endsAt": 82332,
-        "startingCoordinate": {
-            "x": 880,
-            "y": 120
-        },
-        "endingCoordinate": {
-            "x": 360,
-            "y": 120
-        },
-        "type": "MOVETO"
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 19733,
+    "endsAt": 45066,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 82332,
-        "endsAt": 92998,
-        "startingCoordinate": {
-            "x": 360,
-            "y": 120
-        },
-        "endingCoordinate": {
-            "x": 240,
-            "y": 440
-        },
-        "type": "MOVETO"
+    "endingCoordinate": {
+      "x": 880,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 92998,
-        "endsAt": 104998,
-        "startingCoordinate": {
-            "x": 240,
-            "y": 440
-        },
-        "endingCoordinate": {
-            "x": 600,
-            "y": 440
-        },
-        "type": "MOVETO"
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 21133,
+    "endsAt": 46466,
+    "startingCoordinate": {
+      "x": 120,
+      "y": 640
     },
-    {
-        "attackerId": 2,
-        "startsAt": 104998,
-        "endsAt": 107664,
-        "startingCoordinate": {
-            "x": 600,
-            "y": 440
-        },
-        "endingCoordinate": {
-            "x": 600,
-            "y": 360
-        },
-        "type": "MOVETO"
+    "endingCoordinate": {
+      "x": 880,
+      "y": 640
     },
-    {
-        "time": 107664,
-        "id": 2,
-        "x": 600,
-        "y": 360,
-        "type": "ATTACKER_SUCCEEDED"
-    }
+    "type": "MOVETO"
+  },
+  {
+    "time": 23200,
+    "attackerId": 2,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 32567,
+    "attackerId": 2,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 32567,
+    "attackerId": 3,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 33967,
+    "attackerId": 3,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 33967,
+    "attackerId": 4,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 34833,
+    "attackerId": 2,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 34833,
+    "attackerId": 3,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 35367,
+    "attackerId": 4,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 36233,
+    "attackerId": 3,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 36233,
+    "attackerId": 4,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 37633,
+    "attackerId": 4,
+    "towerId": 6,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 43666,
+    "endsAt": 60999,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 640
+    },
+    "endingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 45066,
+    "endsAt": 62399,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 640
+    },
+    "endingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 46466,
+    "endsAt": 63799,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 640
+    },
+    "endingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 60999,
+    "endsAt": 78332,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 62399,
+    "endsAt": 79732,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "time": 63466,
+    "attackerId": 2,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 63799,
+    "endsAt": 81132,
+    "startingCoordinate": {
+      "x": 880,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "type": "MOVETO"
+  },
+  {
+    "time": 75666,
+    "attackerId": 2,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 78332,
+    "endsAt": 88998,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 79732,
+    "endsAt": 90398,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 81132,
+    "endsAt": 91798,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 120
+    },
+    "endingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 88998,
+    "endsAt": 96998,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 90398,
+    "endsAt": 98398,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 91798,
+    "endsAt": 99798,
+    "startingCoordinate": {
+      "x": 360,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "type": "MOVETO"
+  },
+  {
+    "attackerId": 2,
+    "startsAt": 96998,
+    "endsAt": 99664,
+    "startingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 360
+    },
+    "type": "MOVETO"
+  },
+  {
+    "time": 97032,
+    "attackerId": 2,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 97032,
+    "attackerId": 3,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "attackerId": 3,
+    "startsAt": 98398,
+    "endsAt": 101064,
+    "startingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 360
+    },
+    "type": "MOVETO"
+  },
+  {
+    "time": 98432,
+    "attackerId": 3,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 98432,
+    "attackerId": 4,
+    "towerId": 5,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 99664,
+    "id": 2,
+    "x": 600,
+    "y": 360,
+    "type": "ATTACKER_SUCCEEDED"
+  },
+  {
+    "time": 99665,
+    "attackerId": 3,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "attackerId": 4,
+    "startsAt": 99798,
+    "endsAt": 102464,
+    "startingCoordinate": {
+      "x": 600,
+      "y": 440
+    },
+    "endingCoordinate": {
+      "x": 600,
+      "y": 360
+    },
+    "type": "MOVETO"
+  },
+  {
+    "time": 99832,
+    "attackerId": 4,
+    "towerId": 5,
+    "type": "TOWER_LOST_TARGET"
+  },
+  {
+    "time": 101064,
+    "id": 3,
+    "x": 600,
+    "y": 360,
+    "type": "ATTACKER_SUCCEEDED"
+  },
+  {
+    "time": 101065,
+    "attackerId": 4,
+    "towerId": 6,
+    "type": "TOWER_NEW_TARGET"
+  },
+  {
+    "time": 102464,
+    "id": 4,
+    "x": 600,
+    "y": 360,
+    "type": "ATTACKER_SUCCEEDED"
+  }
 ]

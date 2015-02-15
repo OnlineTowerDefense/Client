@@ -11,8 +11,8 @@ Flamer.prototype = {
             image:Konva.Assets.towerFlamer
         };
         Tower.call(this, baseConfig);
-        this.className = 'Grunt';
-        this.speed = 30;
+        this.className = 'Flamer';
+
     }
 };
 

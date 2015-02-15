@@ -28,22 +28,24 @@ function Game(dataUrl, stageId) {
             if (stage.find('#' + towerName).length != 0) {
                 return false;
             }
-            if(data.towerType == 'FLAMER'){
-                var tower = new Flamer({x: data.x, y: data.y, id: towerName});
-
+            var tower = null;
+            if(data.towerType == 'PLASMA'){
+                tower = new Flamer({x: data.x, y: data.y, id: towerName});
             }
+
             layer.add(tower);
         }).on('ATTACKER_SPAWN', function (data) {
             var unitName = 'unit_' + data.id;
             if (stage.find('#' + unitName).length != 0) {
                 return false;
             }
+            var unit = null;
             if(data.attackerType == 'GRUNT'){
-                var unit = new Grunt({x: data.x, y: data.y, id: unitName});
+                 unit = new Grunt({x: data.x, y: data.y, id: unitName});
 
             }
             if(data.attackerType == 'RUNNER'){
-                var unit = new Runner({x: data.x, y: data.y, id: unitName});
+                unit = new Runner({x: data.x, y: data.y, id: unitName});
             }
 
             layer.add(unit);
@@ -80,7 +82,7 @@ function Game(dataUrl, stageId) {
                 animation.stop();
                 return false;
             }
-            $('#slider').slider( "option", "value", frame.time );
+        //    $('#slider').slider( "option", "value", ~~frame.time );
             dispatcher.trigger(frame.time);
         });
 
@@ -92,6 +94,7 @@ function Game(dataUrl, stageId) {
         $.getJSON(self.dataUrl, function (data) {
             self.ready = true;
             dispatcher.setData(data);
+
             dispatcher.trigger(0);
             animation.start();
         });
