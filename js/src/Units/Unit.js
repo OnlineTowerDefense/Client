@@ -5,7 +5,7 @@ Unit = function(config){
 Unit.prototype = {
 
     ____init:function(config){
-        Kinetic.Image.call(this, config);
+        Konva.Image.call(this, config);
         this.className = 'Unit';
         this.speed = 0;
         this.rotationAngle = -1;
@@ -100,4 +100,4 @@ Unit.prototype = {
     }
 };
 
-Kinetic.Util.extend(Unit, Kinetic.Image);
+Konva.Util.extend(Unit, Konva.Image);

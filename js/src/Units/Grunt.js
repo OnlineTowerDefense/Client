@@ -8,7 +8,7 @@ Grunt.prototype = {
             y: config.y,
             id: config.id,
             name:'object',
-            image:Kinetic.Assets.grunt
+            image:Konva.Assets.grunt
         };
         Unit.call(this, baseConfig);
         this.className = 'Grunt';
@@ -16,4 +16,4 @@ Grunt.prototype = {
     }
 };
 
-Kinetic.Util.extend(Grunt, Unit);
+Konva.Util.extend(Grunt, Unit);

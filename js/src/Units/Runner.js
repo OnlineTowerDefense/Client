@@ -8,7 +8,7 @@ Runner.prototype = {
             y: config.y,
             id: config.id,
             name:'object',
-            image:Kinetic.Assets.runner
+            image:Konva.Assets.runner
         };
         Unit.call(this, baseConfig);
         this.className = 'Runner';
@@ -16,4 +16,4 @@ Runner.prototype = {
     }
 };
 
-Kinetic.Util.extend(Runner, Unit);
+Konva.Util.extend(Runner, Unit);

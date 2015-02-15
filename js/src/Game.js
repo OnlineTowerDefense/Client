@@ -15,13 +15,13 @@ function Game(dataUrl, stageId) {
         var height = 840;
         var width = 1080;
         var dispatcher = new EventDispatcher();
-        var layer = new Kinetic.Layer({id: 'objects'});
-        var stage = new Kinetic.Stage({
+        var layer = new Konva.Layer({id: 'objects'});
+        var stage = new Konva.Stage({
             container: self.stageId,
             width: width,
             height: height
         });
-        layer.add(new Kinetic.Image({image:Kinetic.Assets.background}));
+        layer.add(new Konva.Image({image:Konva.Assets.background}));
 
         stage.on('DEFENDER_SPAWN', function (data) {
 
@@ -47,7 +47,7 @@ function Game(dataUrl, stageId) {
         var maxFrameSkip = 5;
         var nextGameTick = new Date().getMilliseconds();
         var interpolation = 0.0;
-        var animation = new Kinetic.Animation(function (frame) {
+        var animation = new Konva.Animation(function (frame) {
             if (!self.ready) {
                 return false;
             }

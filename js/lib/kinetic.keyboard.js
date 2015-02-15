@@ -1,4 +1,4 @@
-Kinetic.Keyboard = function(){
+Konva.Keyboard = function(){
     this.keys =  {
         'BACKSPACE': 8,
         'TAB': 9,
@@ -93,16 +93,16 @@ Kinetic.Keyboard = function(){
     this.countKeys = 0;
     this.active = true;
 };
-Kinetic.Keyboard.prototype.disable = function(){
+Konva.Keyboard.prototype.disable = function(){
     this.active = false;
 };
-Kinetic.Keyboard.prototype.enable = function(){
+Konva.Keyboard.prototype.enable = function(){
     this.active = true;
 };
-Kinetic.Keyboard.prototype.enabled = function(){
+Konva.Keyboard.prototype.enabled = function(){
     return this.active;
 };
-Kinetic.Keyboard.prototype.isDown = function(key){
+Konva.Keyboard.prototype.isDown = function(key){
     if(!this.active) return false;
     if(!key) return this.anyDown;
 
@@ -111,7 +111,7 @@ Kinetic.Keyboard.prototype.isDown = function(key){
 };
 
 
-Kinetic.Keyboard.prototype.dispatch = function(e){
+Konva.Keyboard.prototype.dispatch = function(e){
     var code = null;
     if (!e) e = window.event;
     if (e.keyCode) code = e.keyCode;
@@ -137,7 +137,7 @@ Kinetic.Keyboard.prototype.dispatch = function(e){
         this.anyDown = true;
     }
 };
-Kinetic.Keyboard.prototype.preventDefault = function(e){
+Konva.Keyboard.prototype.preventDefault = function(e){
     if (!e) e = window.event;
     e.cancelBubble = true;
     if (e.stopPropagation) e.stopPropagation();

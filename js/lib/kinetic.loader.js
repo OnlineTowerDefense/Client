@@ -1,9 +1,9 @@
-Kinetic.Loader = function(files){
+Konva.Loader = function(files){
     this.files = files;
     this.progressFunc = null;
     this.errorFunc = null;
     this.completeFunc = null;
-    Kinetic.Assets = {};
+    Konva.Assets = {};
     this.extensions ={
         'jpg':'image',
         'png':'image',
@@ -13,16 +13,16 @@ Kinetic.Loader = function(files){
     }
 };
 
-Kinetic.Loader.prototype.onProgress = function(progress){
+Konva.Loader.prototype.onProgress = function(progress){
     this.progressFunc = progress;
 };
-Kinetic.Loader.prototype.onError = function(error){
+Konva.Loader.prototype.onError = function(error){
     this.errorFunc = error;
 };
-Kinetic.Loader.prototype.onComplete = function(complete){
+Konva.Loader.prototype.onComplete = function(complete){
     this.completeFunc = complete;
 };
-Kinetic.Loader.prototype.load = function(){
+Konva.Loader.prototype.load = function(){
 
     var i = 0,l=this.files.length,total = l,loaded = 0;
     var that = this;
@@ -65,7 +65,7 @@ Kinetic.Loader.prototype.load = function(){
 
         if(this.extensions[ext] == 'image'){
             fileObj = new Image();
-            if(!Kinetic.Assets[id]) Kinetic.Assets[id] = fileObj;
+            if(!Konva.Assets[id]) Konva.Assets[id] = fileObj;
             fileObj.onload = function(e){
                 progress(e);
             };
