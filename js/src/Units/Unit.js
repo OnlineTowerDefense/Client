@@ -9,7 +9,8 @@ Unit.prototype = {
         this.className = 'Unit';
         this.speed = 0;
         this.rotationAngle = -1;
-        this.rotate(0);
+        this.setOffset({x:this.getWidth()/2,y:this.getHeight()/2});
+
         this.on('MOVETO', function(data){
 
             var unitName = 'unit_' + data.attackerId;
