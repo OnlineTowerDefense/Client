@@ -9,18 +9,24 @@ Tower.prototype = {
         Konva.Image.call(this, config);
         this.className = 'Tower';
         this.rotationAngle = -1;
+        this.target = null;
         this.setOffset({x:this.getWidth()/2,y:this.getHeight()/2});
         this.on('TOWER_NEW_TARGET', function (data) {
             var towerName = 'tower_' + data.towerId;
             if(towerName !== this.getId()){
                 return false;
             }
-            var unitName = 'unit_'+data.attackerId;
-            var unit = this.getStage().find('#'+unitName)[0];
+
+            if(this.target == null){
+                var unitName = 'unit_'+data.attackerId;
+                this.target  = this.getStage().find('#'+unitName)[0];
+                return false;
+            }
+
 
             var delta = {
-                x: unit.getX() - this.getX(),
-                y: unit.getY() - this.getY()
+                x: this.target.getX() - this.getX(),
+                y: this.target.getY() - this.getY()
             };
             var angleTo = Math.atan2(delta.y,delta.x);
             var angle = ~~Math.Util.radToDeg(angleTo);
@@ -35,6 +41,11 @@ Tower.prototype = {
             }
 
 
+        });
+
+        this.on('TOWER_LOST_TARGET',function(data){
+            this.target = null;
+            this.setRotation(0);
         });
     }
 
