@@ -24,7 +24,15 @@ function Game(dataUrl, stageId) {
         layer.add(new Konva.Image({image:Konva.Assets.background}));
 
         stage.on('DEFENDER_SPAWN', function (data) {
+            var towerName = 'tower_'+data.id;
+            if (stage.find('#' + towerName).length != 0) {
+                return false;
+            }
+            if(data.towerType == 'FLAMER'){
+                var tower = new Flamer({x: data.x, y: data.y, id: towerName});
 
+            }
+            layer.add(tower);
         }).on('ATTACKER_SPAWN', function (data) {
             var unitName = 'unit_' + data.id;
             if (stage.find('#' + unitName).length != 0) {

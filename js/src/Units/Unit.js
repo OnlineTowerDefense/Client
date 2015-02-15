@@ -43,21 +43,7 @@ Unit.prototype = {
 
                 this.setY(currentY);
             }
-
-            var rad =  Math.atan2(deltaY,deltaX);
-            var angle = Math.Util.radToDeg(rad);
-
-            if(angle !== this.rotationAngle){
-
-
-                var origin = {x:this.getWidth()/2,y:this.getHeight()/2};
-              //  this.setOffset({x:-origin.x,y:-origin.y});
-
-                this.setRotation(angle);
-
-                //console.log(this.getOffset());
-                this.rotationAngle = angle;
-            }
+            this.lookAt(data.startingCoordinate.y,data.startingCoordinate.x);
 
         });
 
@@ -73,12 +59,26 @@ Unit.prototype = {
         }
     },
     lookAt:function(y,x){
-        //this.rotate(0);
+
         var delta = this._getDelta(y,x);
         var angleTo = Math.atan2(delta.y,delta.x);
-       // this.setOffsetY(this.getHeight());
-        console.log(angleTo);
-        this.rotate(Math.Util.radToDeg(angleTo));
+        var angle = ~~Math.Util.radToDeg(angleTo);
+
+        if(this.rotationAngle == angle){
+            return false;
+        }
+        var origin = {x:-this.getWidth()/2,y:-this.getHeight()/2};
+
+
+       // this.setOffset(origin);
+        var originalOffset = this.getOffset();
+
+        this.setRotation(angle);
+
+        origin = {x:originalOffset.x+this.getWidth()/2,y:originalOffset.y+this.getHeight()/2};
+       // this.setOffset(origin);
+
+        this.rotationAngle = angle;
     },
     _update:function(data){
 
