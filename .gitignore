@@ -1,2 +1,10 @@
 ### Mac OSX ###
 **/.DS_Store
+
+### Directory-based project format ###
+.idea/
+
+### File-based project format ###
+*.ipr
+*.iws
+*.iml
