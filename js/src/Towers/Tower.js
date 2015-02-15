@@ -9,7 +9,7 @@ Tower.prototype = {
         Konva.Image.call(this, config);
         this.className = 'Tower';
         this.rotationAngle = -1;
-
+        this.setOffset({x:this.getWidth()/2,y:this.getHeight()/2});
         this.on('TOWER_NEW_TARGET', function (data) {
             var towerName = 'tower_' + data.towerId;
             if(towerName !== this.getId()){
@@ -28,10 +28,9 @@ Tower.prototype = {
             if(this.rotationAngle !== angle){
                var oldOffset = this.getOffset();
 
-                var newOffset = {x: -this.getWidth()/2,y:-this.getHeight()/2};
-                this.setOffset(newOffset);
+
                 this.setRotation(angle);
-                this.setOffset(oldOffset);
+
                 this.rotationAngle = angle;
             }
 
