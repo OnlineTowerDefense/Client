@@ -19,8 +19,8 @@ Tower.prototype = {
             var unit = this.getStage().find('#'+unitName)[0];
 
             var delta = {
-                x: this.getX() - unit.getX(),
-                y: this.getY() - unit.getY()
+                x: unit.getX() - this.getX(),
+                y: unit.getY() - this.getY()
             };
             var angleTo = Math.atan2(delta.y,delta.x);
             var angle = ~~Math.Util.radToDeg(angleTo);
