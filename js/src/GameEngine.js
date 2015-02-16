@@ -14,7 +14,10 @@ function Game(dataUrl, stageId) {
 
         var height = 840;
         var width = 1080;
-        var dispatcher = new EventDispatcher();
+
+        var eventQueue = new EventQueue();
+        var eventController = new EventController();
+
         var layer = new Konva.Layer({id: 'objects'});
         var stage = new Konva.Stage({
             container: self.stageId,
@@ -23,45 +26,15 @@ function Game(dataUrl, stageId) {
         });
         layer.add(new Konva.Image({image:Konva.Assets.background}));
 
-        stage.on('DEFENDER_SPAWN', function (data) {
-            var towerName = 'tower_'+data.id;
-            if (stage.find('#' + towerName).length != 0) {
-                return false;
-            }
-            var tower = null;
-            if(data.towerType == 'PLASMA'){
-                tower = new Flamer(
-                    {
-                        x: data.x,
-                        y: data.y,
-                        id: towerName
-                    });
-            }
 
-            layer.add(tower);
-        }).on('ATTACKER_SPAWN', function (data) {
-            var unitName = 'unit_' + data.id;
-            if (stage.find('#' + unitName).length != 0) {
-                return false;
-            }
-            var unit = null;
-            if(data.attackerType == 'GRUNT'){
-                 unit = new Grunt({x: data.x, y: data.y, id: unitName});
-
-            }
-            if(data.attackerType == 'RUNNER'){
-                unit = new Runner({x: data.x, y: data.y, id: unitName});
-            }
-
-            layer.add(unit);
-
-        });
 
         var ticksPerSecond = 25;
         var skipTicks = 1000/ticksPerSecond;
         var maxFrameSkip = 5;
         var nextGameTick = new Date().getMilliseconds();
         var interpolation = 0.0;
+
+        // GameLoop through an Animation
         var animation = new Konva.Animation(function (frame) {
             if (!self.ready) {
                 return false;
@@ -83,38 +56,35 @@ function Game(dataUrl, stageId) {
 
             stage.draw();
         }).on('update', function (event, frame) {
-            if (dispatcher.finished) {
+            if (eventQueue.isEmpty()) {
                 animation.stop();
                 return false;
             }
-        //    $('#slider').slider( "option", "value", ~~frame.time );
-            dispatcher.trigger(frame.time);
+            var events = eventQueue.popEvents(frame.time);
+            if( events && events.length > 0){
+                eventController.processEvents(events);
+            }
+            stage.find('.object').each(function (obj) {
+                obj.fire('tick', {}, true);
+            });
         });
 
 
         stage.add(layer);
 
-        dispatcher.setStage(stage);
+        eventController.setStage(stage);
+        eventController.setLayer(layer);
+
+
+
 
         $.getJSON(self.dataUrl, function (data) {
             self.ready = true;
-            dispatcher.setData(data);
-
-            dispatcher.trigger(0);
+            eventQueue.addAll(data);
             animation.start();
         });
 
         self.initialized = true;
-        $('#slider').slider({
-            min:0,
-            max:107664,
-            step:1,
-            slide:function(event,ui){
-               var value = ui.value;
-
-                dispatcher.trigger(value);
-            }
-        });
     }
 
     this.run = function () {

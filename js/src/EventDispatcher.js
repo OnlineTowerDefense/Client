@@ -43,7 +43,9 @@ function EventDispatcher() {
     };
     this.trigger = function (time) {
         var passedEvents = getEventData(time);
-
+        if(console){
+            console.log("%c EventDispater.time = "+time, "color:green;font-weight:bold;");
+        }
         for(var i = 0,il = passedEvents.length;i<il;i++){
             var currentEvent = passedEvents[i];
             currentEvent.currentTime = time;

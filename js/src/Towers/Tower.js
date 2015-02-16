@@ -10,12 +10,15 @@ Tower.prototype = {
         this.className = 'Tower';
         this.rotationAngle = -1;
         this.target = null;
-        this.setOffset({x:this.getWidth()/2,y:this.getHeight()/2});
+        this.fill('green');
+
         this.on('TOWER_NEW_TARGET', function (data) {
             var towerName = 'tower_' + data.towerId;
             if(towerName !== this.getId()){
                 return false;
             }
+
+            Logger.info("Tower = "+towerName+" targets attacker "+data.attackerId);
 
             if(this.target == null){
                 var unitName = 'unit_'+data.attackerId;
@@ -32,11 +35,7 @@ Tower.prototype = {
             var angle = ~~Math.Util.radToDeg(angleTo);
 
             if(this.rotationAngle !== angle){
-               var oldOffset = this.getOffset();
-
-
-                this.setRotation(angle);
-
+                this.rotation(angle);
                 this.rotationAngle = angle;
             }
 
