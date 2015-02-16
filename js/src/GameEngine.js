@@ -60,12 +60,15 @@ function Game(dataUrl, stageId) {
                 animation.stop();
                 return false;
             }
-            var events = eventQueue.popEvents(frame.time);
+            var currentMilliseconds = Math.floor( frame.time );
+
+            var events = eventQueue.popEvents(currentMilliseconds);
             if( events && events.length > 0){
                 eventController.processEvents(events);
             }
+
             stage.find('.object').each(function (obj) {
-                obj.fire('tick', {}, true);
+                obj.fire('tick', {time:currentMilliseconds}, true);
             });
         });
 

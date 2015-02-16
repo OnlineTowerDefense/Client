@@ -10,8 +10,8 @@ Tower.prototype = {
         this.className = 'Tower';
         this.rotationAngle = -1;
         this.target = null;
-        this.fill('green');
-
+        this.timeToReload = config.timeToReload;
+        this.lastShot = 0;
         this.on('TOWER_NEW_TARGET', function (event) {
 
             Logger.info("Tower: Processing TOWER_NEW_TARGET Event for element with id = "+event.elementId);
@@ -33,7 +33,6 @@ Tower.prototype = {
         });
 
         this.on('tick',function(data){
-            Logger.info("Tower: tick");
             if(this.target === undefined || this.target == null){
                 return;
             }
@@ -48,6 +47,32 @@ Tower.prototype = {
             if(this.rotationAngle !== angle){
                 this.rotation(angle);
                 this.rotationAngle = angle;
+            }
+
+            if(this.lastShot + this.timeToReload < data.time ){
+
+                var circle = new Konva.Circle({
+                    x: this.getX(),
+                    y: this.getY(),
+                    radius: 2,
+                    fill: 'red',
+                    stroke: 'orange',
+                    strokeWidth: 1
+                });
+                this.getLayer().add(circle);
+                this.tween = new Konva.Tween({
+                    node: circle,
+                    duration: 0.2,
+                    x: this.target.getX(),
+                    y: this.target.getY(),
+                    onFinish: function() {
+                        circle.destroy();
+                    }
+                });
+
+                this.tween.play();
+
+                this.lastShot = data.time;
             }
 
         });

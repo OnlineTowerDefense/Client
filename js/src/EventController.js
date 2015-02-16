@@ -19,7 +19,8 @@ function EventController() {
                         {
                             x: event.x,
                             y: event.y,
-                            id: event.elementId
+                            id: event.elementId,
+                            timeToReload:500
                         });
                 }
 

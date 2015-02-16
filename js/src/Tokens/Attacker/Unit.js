@@ -36,8 +36,11 @@ Unit.prototype = {
             this.tween.play();
 
 
-        });
 
+        });
+        this.on('ATTACKER_SUCCEEDED', function(event){
+            this.destroy();
+        });
 
     },
 
