@@ -19,9 +19,9 @@ function EventController() {
                         x: event.x,
                         y: event.y,
                         image:Konva.Assets.towerBase,
-                        width: 60,
-                        height: 60,
-                        offset:{x:30, y:30}
+                        width: 50,
+                        height: 50,
+                        offset:{x:25, y:25}
                     });
 
 
