@@ -1,18 +1,18 @@
-Flamer = function(config){
+Gattling = function(config){
     this._____init(config);
 };
-Flamer.prototype = {
+Gattling.prototype = {
     _____init:function(config){
         var baseConfig = {
             x: config.x,
             y: config.y,
             id: config.id,
             name:'object',
-            image:Konva.Assets.towerFlamer,
-            width: 80,
-            height: 80,
-            offset:{x:40,y:40},
-            baseOffset:{x:10,y:10}
+            image:Konva.Assets.towerGattling,
+            width: 100,
+            height: 100,
+            offset:{x:50,y:50},
+            timeToReload: config.timeToReload
         };
         Tower.call(this, baseConfig);
         this.className = 'Flamer';
@@ -20,4 +20,4 @@ Flamer.prototype = {
     }
 };
 
-Konva.Util.extend(Flamer, Tower);
+Konva.Util.extend(Gattling, Tower);

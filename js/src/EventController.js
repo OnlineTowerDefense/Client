@@ -24,17 +24,11 @@ function EventController() {
                         offset:{x:25, y:25}
                     });
 
-
                 if(event.towerType == 'PLASMA'){
-                    tower = new Flamer(
-                        {
-                            x: event.x,
-                            y: event.y,
-                            id: event.elementId,
-                            timeToReload:500
-                        });
+                    tower = new Flamer({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
+                } else if(event.towerType == 'GATTLING'){
+                    tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
                 }
-
 
                 this.objectLayer.add(tower);
                 this.backGroundLayer.add(base);

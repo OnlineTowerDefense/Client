@@ -32,8 +32,7 @@ function Game(events, fight, dungeonBlueprint, stageId, baseUrl) {
 
         backgrounds.add(
             new Konva.Image({
-                image:Konva.Assets[self.dungeonBlueprint.name],
-                offset:{x:20,y:20}
+                image:Konva.Assets[self.dungeonBlueprint.name]
             }));
 
         var ticksPerSecond = 25;
