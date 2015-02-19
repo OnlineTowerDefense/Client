@@ -14,6 +14,17 @@ function EventController() {
                     return false;
                 }
                 var tower = null;
+
+                var base = new Konva.Image({
+                        x: event.x,
+                        y: event.y,
+                        image:Konva.Assets.towerBase,
+                        width: 60,
+                        height: 60,
+                        offset:{x:30, y:30}
+                    });
+
+
                 if(event.towerType == 'PLASMA'){
                     tower = new Flamer(
                         {
@@ -24,7 +35,10 @@ function EventController() {
                         });
                 }
 
-                this.layer.add(tower);
+
+                this.objectLayer.add(tower);
+                this.backGroundLayer.add(base);
+
             }else  if(event.type == 'ATTACKER_SPAWN'){
                 if (this.stage.find('#' + event.elementId).length != 0) {
                     Logger.error("Tried to add already existing Element with id = "+event.elementId+" and attackerType = "+event.attackerType);
@@ -39,7 +53,7 @@ function EventController() {
                     unit = new Runner({x: event.x, y: event.y, id: event.elementId});
                 }
 
-                this.layer.add(unit);
+                this.objectLayer.add(unit);
             }else{
                 var object = this.stage.find('#'+event.elementId);
                 if (object.length == 0){
@@ -57,8 +71,12 @@ function EventController() {
         this.stage = stage;
     };
 
-    this.setLayer = function (layer) {
-        this.layer = layer;
+    this.setObjectLayer = function (layer) {
+        this.objectLayer = layer;
+    };
+
+    this.setBackgroundLayer = function (layer) {
+        this.backGroundLayer = layer;
     };
 
 }

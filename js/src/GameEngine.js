@@ -1,32 +1,40 @@
-function Game(dataUrl, stageId) {
+function Game(events, fight, dungeonBlueprint, stageId, baseUrl) {
     var self = this;
     this.ready = false;
     this.initialized = false;
     this.maxFPS = 60;
     this.browser = $(document);
-    this.dataUrl = dataUrl;
 
     this.stageId = stageId;
+
+    this.events = events;
+    this.fight = fight;
+    this.dungeonBlueprint = dungeonBlueprint;
 
 
     function init() {
         self.ready = false;
 
-        var height = 840;
-        var width = 1080;
+        var height = self.dungeonBlueprint.height;
+        var width = self.dungeonBlueprint.width;
 
         var eventQueue = new EventQueue();
         var eventController = new EventController();
 
         var layer = new Konva.Layer({id: 'objects'});
+        var backgrounds = new Konva.Layer({id: 'backgrounds'});
+
         var stage = new Konva.Stage({
             container: self.stageId,
             width: width,
             height: height
         });
-        layer.add(new Konva.Image({image:Konva.Assets.background}));
 
-
+        backgrounds.add(
+            new Konva.Image({
+                image:Konva.Assets[self.dungeonBlueprint.name],
+                offset:{x:20,y:20}
+            }));
 
         var ticksPerSecond = 25;
         var skipTicks = 1000/ticksPerSecond;
@@ -72,21 +80,18 @@ function Game(dataUrl, stageId) {
             });
         });
 
-
+        stage.add(backgrounds);
         stage.add(layer);
 
         eventController.setStage(stage);
-        eventController.setLayer(layer);
+        eventController.setObjectLayer(layer);
+        eventController.setBackgroundLayer(backgrounds);
 
 
+        eventQueue.addAll(events);
+        animation.start();
 
-
-        $.getJSON(self.dataUrl, function (data) {
-            self.ready = true;
-            eventQueue.addAll(data);
-            animation.start();
-        });
-
+        self.ready = true;
         self.initialized = true;
     }
 

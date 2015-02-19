@@ -70,7 +70,7 @@ Unit.prototype = {
 
         var delta = this._getDelta(y,x);
         var angleTo = Math.atan2(delta.y,delta.x);
-        var angle = ~~Math.Util.radToDeg(angleTo);
+        var angle = ~~Math.Util.radToDeg(angleTo)+180;
 
         if(this.rotationAngle == angle){
             return false;

@@ -12,6 +12,8 @@ Tower.prototype = {
         this.target = null;
         this.timeToReload = config.timeToReload;
         this.lastShot = 0;
+
+
         this.on('TOWER_NEW_TARGET', function (event) {
 
             Logger.info("Tower: Processing TOWER_NEW_TARGET Event for element with id = "+event.elementId);
@@ -42,7 +44,7 @@ Tower.prototype = {
                 y: this.target.getY() - this.getY()
             };
             var angleTo = Math.atan2(delta.y,delta.x);
-            var angle = ~~Math.Util.radToDeg(angleTo);
+            var angle = ~~Math.Util.radToDeg(angleTo)+90;
 
             if(this.rotationAngle !== angle){
                 this.rotation(angle);

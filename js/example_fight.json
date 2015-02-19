@@ -1,0 +1,12 @@
+{
+    "id": 3,
+    "attackingUserId": 1,
+    "defendingUserId": 28,
+    "attackingUserName": "maxx",
+    "defendingUserName": "MrMaxx",
+    "createdAt": 1424294937868,
+    "fightState": "COMPLETED",
+    "outcome": "ATTACKER_WON",
+    "dungeonBlueprintId":2,
+    "attackForcePatternId":1
+}

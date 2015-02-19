@@ -11,7 +11,8 @@ Flamer.prototype = {
             image:Konva.Assets.towerFlamer,
             width: 80,
             height: 80,
-            offset:{x:40,y:40}
+            offset:{x:40,y:40},
+            baseOffset:{x:10,y:10}
         };
         Tower.call(this, baseConfig);
         this.className = 'Flamer';

@@ -12,6 +12,8 @@ Tower.prototype = {
         this.target = null;
         this.fill('green');
 
+        this.getStage.add();
+
         this.on('TOWER_NEW_TARGET', function (data) {
             var towerName = 'tower_' + data.towerId;
             if(towerName !== this.getId()){
