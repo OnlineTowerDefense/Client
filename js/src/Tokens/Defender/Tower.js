@@ -12,7 +12,7 @@ Tower.prototype = {
         this.target = null;
         this.timeToReload = config.timeToReload;
         this.lastShot = 0;
-
+        this.tokenType = config.tokenType;
 
         this.on('TOWER_NEW_TARGET', function (event) {
 

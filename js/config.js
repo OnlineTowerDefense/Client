@@ -2,6 +2,8 @@ var config = {
     assets: [
         {src: 'img/attacker/GRUNT_EAST_NORMAL.png', id: 'grunt'},
         {src: 'img/attacker/RUNNER_EAST_NORMAL.png', id: 'runner'},
+        {src: 'img/attacker/GRUNT_DESTROYED.png', id: 'GRUNT_CORPSE'},
+        {src: 'img/attacker/RUNNER_DESTROYED.png', id: 'RUNNER_CORPSE'},
         {src: 'img/tower/TOWER_BASE.png', id: 'towerBase'},
         {src: 'img/tower/PLASMA.png', id: 'towerFlamer'},
         {src: 'img/tower/GATTLING.png', id: 'towerGattling'},

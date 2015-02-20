@@ -11,7 +11,8 @@ Runner.prototype = {
             image:Konva.Assets.runner,
             width: 40,
             height: 40,
-            offset:{x:20,y:20}
+            offset:{x:20,y:20},
+            tokenType:'RUNNER'
         };
         Unit.call(this, baseConfig);
         this.className = 'Runner';

@@ -12,7 +12,8 @@ Flamer.prototype = {
             width: 100,
             height: 100,
             offset:{x:50,y:50},
-            timeToReload: config.timeToReload
+            timeToReload: config.timeToReload,
+            tokenType:'PLASMA'
         };
         Tower.call(this, baseConfig);
         this.className = 'Flamer';
