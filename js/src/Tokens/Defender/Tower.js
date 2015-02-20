@@ -14,6 +14,11 @@ Tower.prototype = {
         this.lastShot = 0;
         this.tokenType = config.tokenType;
 
+        this.circle = null;
+        this.text1 = null;
+        this.text2 = null;
+        this.text3 = null;
+
         this.on('TOWER_NEW_TARGET', function (event) {
 
             Logger.info("Tower: Processing TOWER_NEW_TARGET Event for element with id = "+event.elementId);
@@ -44,7 +49,7 @@ Tower.prototype = {
                 y: this.target.getY() - this.getY()
             };
             var angleTo = Math.atan2(delta.y,delta.x);
-            var angle = ~~Math.Util.radToDeg(angleTo)+90;
+            var angle = ~~Math.Util.radToDeg(angleTo);
 
             if(this.rotationAngle !== angle){
                 this.rotation(angle);
@@ -53,22 +58,28 @@ Tower.prototype = {
 
             if(this.lastShot + this.timeToReload < data.time ){
 
-                var circle = new Konva.Circle({
-                    x: this.getX(),
-                    y: this.getY(),
-                    radius: 2,
-                    fill: 'red',
-                    stroke: 'orange',
-                    strokeWidth: 1
+                var distance = 40;
+                var angleInRad = Math.Util.degToRad(angle);
+                var gunfireDetalX = Math.cos(angleInRad) * distance;
+                var gunfireDetalY = Math.sin(angleInRad) * distance;
+
+
+                var bullet = new Konva.Image({
+                    x: this.getX()+gunfireDetalX,
+                    y: this.getY()+gunfireDetalY,
+                    image:Konva.Assets.bulletBullet,
+                    scale:{x:0.3,y:0.3}
                 });
-                this.getLayer().add(circle);
+                bullet.rotation(angle);
+
+                this.getLayer().add(bullet);
                 this.tween = new Konva.Tween({
-                    node: circle,
-                    duration: 0.2,
+                    node: bullet,
+                    duration: 0.3,
                     x: this.target.getX(),
                     y: this.target.getY(),
                     onFinish: function() {
-                        circle.destroy();
+                        bullet.destroy();
                     }
                 });
 

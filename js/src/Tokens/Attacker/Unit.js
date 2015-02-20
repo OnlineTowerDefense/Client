@@ -16,10 +16,6 @@ Unit.prototype = {
 
         this.walkoffset = Math.floor( ( Math.random() * 41 )) - 20;
 
-
-
-
-
         this.on('MOVETO', function(event){
 
             Logger.info("Unit: Processing MOVETO Event for element with id = "+event.elementId);
