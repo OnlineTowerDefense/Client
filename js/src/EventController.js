@@ -27,7 +27,7 @@ function EventController() {
                 if(event.towerType == 'PLASMA'){
                     tower = new Flamer({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
                 } else if(event.towerType == 'GATTLING'){
-                    tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
+                    tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:200 });
                 }
 
                 this.objectLayer.add(tower);

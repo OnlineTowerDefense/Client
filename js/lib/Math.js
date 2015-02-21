@@ -11,5 +11,9 @@ Math.Util = {
     },
     degToRad: function (angleInDeg) {
         return angleInDeg * Math.PI / 180;
+    },
+    angle: function(fromX, fromY, toX, toY){
+        var angleTo = Math.atan2(toY - fromY,toX - fromX);
+        return ~~Math.Util.radToDeg(angleTo);
     }
 };
