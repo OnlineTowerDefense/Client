@@ -31,10 +31,10 @@ Gattling.prototype = {
                 var angle = Math.Util.angle(this.x(), this.y(), this.target.x(), this.target.y());
                 var gunAngle = angle;
                 if(this.left){
-                    gunAngle = angle - 15;
+                    gunAngle = angle - 12;
                     this.left = false;
                 }else{
-                    gunAngle = angle + 15;
+                    gunAngle = angle + 12;
                     this.left = true;
                 }
 

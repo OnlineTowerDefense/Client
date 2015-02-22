@@ -1,1 +1,945 @@
-[{"time":0,"towerType":"PLASMA","x":260,"y":620,"type":"DEFENDER_SPAWN","elementId":68},{"time":0,"towerType":"GATTLING","x":1060,"y":180,"type":"DEFENDER_SPAWN","elementId":69},{"time":0,"towerType":"GATTLING","x":580,"y":640,"type":"DEFENDER_SPAWN","elementId":70},{"time":0,"towerType":"GATTLING","x":280,"y":180,"type":"DEFENDER_SPAWN","elementId":71},{"time":0,"towerType":"GATTLING","x":260,"y":820,"type":"DEFENDER_SPAWN","elementId":72},{"time":0,"towerType":"PLASMA","x":520,"y":260,"type":"DEFENDER_SPAWN","elementId":73},{"time":0,"towerType":"GATTLING","x":520,"y":400,"type":"DEFENDER_SPAWN","elementId":74},{"time":0,"towerType":"GATTLING","x":1060,"y":460,"type":"DEFENDER_SPAWN","elementId":75},{"time":0,"towerType":"PLASMA","x":780,"y":300,"type":"DEFENDER_SPAWN","elementId":76},{"time":0,"towerType":"PLASMA","x":840,"y":540,"type":"DEFENDER_SPAWN","elementId":77},{"time":0,"towerType":"GATTLING","x":640,"y":60,"type":"DEFENDER_SPAWN","elementId":78},{"time":1000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":2},{"time":1000,"endsAt":10333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":2},{"time":1667,"attackerId":2,"type":"TOWER_NEW_TARGET","elementId":71},{"time":2000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":3},{"time":2000,"endsAt":11333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":3},{"time":3000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":4},{"time":3000,"endsAt":12333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":4},{"time":4000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":5},{"time":4000,"endsAt":13333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":5},{"time":5000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":6},{"time":5000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":49},{"time":5000,"endsAt":14333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":6},{"time":5000,"endsAt":10600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":49},{"time":6200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":50},{"time":6200,"endsAt":11800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":50},{"time":7400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":51},{"time":7400,"endsAt":13000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":51},{"time":8600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":52},{"time":8600,"endsAt":14200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":52},{"time":9800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":53},{"time":9800,"endsAt":15400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":53},{"time":10000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":37},{"time":10000,"endsAt":19333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":37},{"time":10333,"endsAt":18333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":2},{"time":10600,"endsAt":15400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":49},{"time":11000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":54},{"time":11000,"endsAt":16600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":54},{"time":11333,"endsAt":19333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":3},{"time":11420,"attackerId":49,"type":"TOWER_NEW_TARGET","elementId":73},{"time":11567,"type":"ATTACKER_DIED","elementId":2},{"time":11567,"attackerId":2,"type":"TOWER_LOST_TARGET","elementId":71},{"time":11568,"attackerId":3,"type":"TOWER_NEW_TARGET","elementId":71},{"time":11800,"endsAt":16600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":50},{"time":12000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":27},{"time":12000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":38},{"time":12000,"endsAt":17600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":27},{"time":12000,"endsAt":21333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":38},{"time":12200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":55},{"time":12200,"endsAt":17800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":55},{"time":12333,"endsAt":20333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":4},{"time":13000,"endsAt":17800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":51},{"time":13333,"endsAt":21333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":5},{"time":13400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":56},{"time":13400,"endsAt":19000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":56},{"time":14000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":39},{"time":14000,"endsAt":23333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":39},{"time":14200,"endsAt":19000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":52},{"time":14333,"endsAt":22333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":6},{"time":14500,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":28},{"time":14500,"endsAt":20100,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":28},{"time":14600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":57},{"time":14600,"endsAt":20200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":57},{"time":14600,"attackerId":49,"type":"TOWER_NEW_TARGET","elementId":74},{"time":15000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":59},{"time":15000,"endsAt":24333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":59},{"time":15400,"endsAt":17800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":49},{"time":15400,"endsAt":20200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":53},{"time":15800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":58},{"time":15800,"endsAt":21400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":58},{"time":16000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":40},{"time":16000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":60},{"time":16000,"endsAt":25333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":40},{"time":16000,"endsAt":25333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":60},{"time":16220,"attackerId":49,"type":"TOWER_LOST_TARGET","elementId":74},{"time":16220,"attackerId":50,"type":"TOWER_NEW_TARGET","elementId":74},{"time":16600,"endsAt":19000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":50},{"time":16600,"endsAt":21400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":54},{"time":17000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":29},{"time":17000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":61},{"time":17000,"endsAt":22600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":29},{"time":17000,"endsAt":26333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":61},{"time":17420,"attackerId":50,"type":"TOWER_LOST_TARGET","elementId":74},{"time":17420,"attackerId":51,"type":"TOWER_NEW_TARGET","elementId":74},{"time":17600,"endsAt":22400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":27},{"time":17720,"type":"ATTACKER_DIED","elementId":49},{"time":17720,"attackerId":49,"type":"TOWER_LOST_TARGET","elementId":73},{"time":17721,"attackerId":3,"type":"TOWER_NEW_TARGET","elementId":73},{"time":17800,"endsAt":20200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":51},{"time":17800,"endsAt":22600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":55},{"time":18000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":41},{"time":18000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":62},{"time":18000,"endsAt":27333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":41},{"time":18000,"endsAt":27333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":62},{"time":18620,"attackerId":51,"type":"TOWER_LOST_TARGET","elementId":74},{"time":18620,"attackerId":3,"type":"TOWER_NEW_TARGET","elementId":74},{"time":19000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":63},{"time":19000,"endsAt":23800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":50},{"time":19000,"endsAt":21400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":52},{"time":19000,"endsAt":23800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":56},{"time":19000,"endsAt":28333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":63},{"time":19333,"endsAt":23333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":3},{"time":19333,"endsAt":27333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":37},{"time":19500,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":30},{"time":19500,"endsAt":25100,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":30},{"time":19667,"type":"ATTACKER_DIED","elementId":3},{"time":19667,"attackerId":3,"type":"TOWER_LOST_TARGET","elementId":71},{"time":19667,"attackerId":3,"type":"TOWER_LOST_TARGET","elementId":73},{"time":19667,"attackerId":3,"type":"TOWER_LOST_TARGET","elementId":74},{"time":19667,"attackerId":4,"type":"TOWER_NEW_TARGET","elementId":73},{"time":19667,"attackerId":4,"type":"TOWER_NEW_TARGET","elementId":74},{"time":19668,"attackerId":4,"type":"TOWER_NEW_TARGET","elementId":71},{"time":20000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":7},{"time":20000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":42},{"time":20000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":64},{"time":20000,"endsAt":25600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":7},{"time":20000,"endsAt":29333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":42},{"time":20000,"endsAt":29333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":64},{"time":20100,"endsAt":24900,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":28},{"time":20200,"endsAt":25000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":51},{"time":20200,"endsAt":22600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":53},{"time":20200,"endsAt":25000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":57},{"time":20333,"endsAt":24333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":4},{"time":20340,"attackerId":50,"type":"TOWER_NEW_TARGET","elementId":78},{"time":20860,"attackerId":50,"type":"TOWER_NEW_TARGET","elementId":76},{"time":21000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":65},{"time":21000,"endsAt":30333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":65},{"time":21200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":8},{"time":21200,"endsAt":26800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":8},{"time":21333,"endsAt":25333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":5},{"time":21333,"endsAt":29333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":38},{"time":21400,"endsAt":26200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":52},{"time":21400,"endsAt":23800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":54},{"time":21400,"endsAt":26200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":58},{"time":21700,"attackerId":4,"type":"TOWER_LOST_TARGET","elementId":74},{"time":21700,"attackerId":5,"type":"TOWER_NEW_TARGET","elementId":74},{"time":22000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":31},{"time":22000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":43},{"time":22000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":66},{"time":22000,"endsAt":27600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":31},{"time":22000,"endsAt":31333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":43},{"time":22000,"endsAt":31333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":66},{"time":22333,"endsAt":26333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":6},{"time":22400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":9},{"time":22400,"endsAt":24800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":27},{"time":22400,"endsAt":28000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":9},{"time":22600,"endsAt":27400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":53},{"time":22600,"endsAt":25000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":55},{"time":22600,"endsAt":27400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":29},{"time":22700,"attackerId":5,"type":"TOWER_LOST_TARGET","elementId":74},{"time":22700,"attackerId":6,"type":"TOWER_NEW_TARGET","elementId":74},{"time":22960,"type":"ATTACKER_DIED","elementId":50},{"time":22960,"attackerId":50,"type":"TOWER_LOST_TARGET","elementId":78},{"time":22960,"attackerId":50,"type":"TOWER_LOST_TARGET","elementId":76},{"time":22960,"attackerId":51,"type":"TOWER_NEW_TARGET","elementId":78},{"time":22961,"attackerId":51,"type":"TOWER_NEW_TARGET","elementId":76},{"time":23000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":67},{"time":23000,"endsAt":32333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":67},{"time":23333,"endsAt":31333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":39},{"time":23600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":10},{"time":23600,"endsAt":29200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":10},{"time":23700,"attackerId":6,"type":"TOWER_LOST_TARGET","elementId":74},{"time":23700,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":74},{"time":23800,"endsAt":28600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":54},{"time":23800,"endsAt":26200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":56},{"time":24000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":44},{"time":24000,"endsAt":33333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":44},{"time":24333,"endsAt":32333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":4},{"time":24333,"endsAt":32333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":59},{"time":24500,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":32},{"time":24500,"endsAt":30100,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":32},{"time":24620,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":74},{"time":24620,"attackerId":28,"type":"TOWER_NEW_TARGET","elementId":74},{"time":24800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":11},{"time":24800,"endsAt":29600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":27},{"time":24800,"endsAt":30400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":11},{"time":24900,"endsAt":27300,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":28},{"time":24967,"type":"ATTACKER_DIED","elementId":4},{"time":24967,"attackerId":4,"type":"TOWER_LOST_TARGET","elementId":73},{"time":24967,"attackerId":4,"type":"TOWER_LOST_TARGET","elementId":71},{"time":24967,"attackerId":5,"type":"TOWER_NEW_TARGET","elementId":73},{"time":24968,"attackerId":5,"type":"TOWER_NEW_TARGET","elementId":71},{"time":25000,"endsAt":29000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":51},{"time":25000,"endsAt":29800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":55},{"time":25000,"endsAt":27400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":57},{"time":25100,"endsAt":29900,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":30},{"time":25333,"endsAt":33333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":5},{"time":25333,"endsAt":33333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":40},{"time":25333,"endsAt":33333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":60},{"time":25540,"type":"ATTACKER_DIED","elementId":51},{"time":25540,"attackerId":51,"type":"TOWER_LOST_TARGET","elementId":78},{"time":25540,"attackerId":51,"type":"TOWER_LOST_TARGET","elementId":76},{"time":25541,"attackerId":52,"type":"TOWER_NEW_TARGET","elementId":76},{"time":25541,"attackerId":52,"type":"TOWER_NEW_TARGET","elementId":78},{"time":25600,"endsAt":30400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":7},{"time":25720,"attackerId":28,"type":"TOWER_LOST_TARGET","elementId":74},{"time":25720,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":74},{"time":25820,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":74},{"time":25820,"attackerId":58,"type":"TOWER_NEW_TARGET","elementId":74},{"time":26000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":12},{"time":26000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":45},{"time":26000,"endsAt":31600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":12},{"time":26000,"endsAt":35333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":45},{"time":26200,"endsAt":30200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":52},{"time":26200,"endsAt":31000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":56},{"time":26200,"endsAt":28600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":58},{"time":26333,"endsAt":34333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":6},{"time":26333,"endsAt":34333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":61},{"time":26800,"endsAt":31600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":8},{"time":27000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":33},{"time":27000,"endsAt":32600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":33},{"time":27020,"attackerId":58,"type":"TOWER_LOST_TARGET","elementId":74},{"time":27020,"attackerId":37,"type":"TOWER_NEW_TARGET","elementId":74},{"time":27200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":13},{"time":27200,"endsAt":32800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":13},{"time":27300,"endsAt":32100,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":28},{"time":27333,"endsAt":31333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":37},{"time":27333,"endsAt":35333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":41},{"time":27333,"endsAt":35333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":62},{"time":27400,"endsAt":31400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":53},{"time":27400,"endsAt":32200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":57},{"time":27400,"endsAt":29800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":29},{"time":27600,"endsAt":32400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":31},{"time":27967,"attackerId":5,"type":"TOWER_LOST_TARGET","elementId":71},{"time":27967,"attackerId":6,"type":"TOWER_NEW_TARGET","elementId":71},{"time":28000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":46},{"time":28000,"endsAt":32800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":9},{"time":28000,"endsAt":37333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":46},{"time":28220,"attackerId":52,"type":"TOWER_LOST_TARGET","elementId":78},{"time":28220,"attackerId":5,"type":"TOWER_NEW_TARGET","elementId":78},{"time":28333,"endsAt":36333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":63},{"time":28400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":14},{"time":28400,"endsAt":34000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":14},{"time":28600,"endsAt":32600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":54},{"time":28600,"endsAt":33400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":58},{"time":28700,"attackerId":37,"type":"TOWER_LOST_TARGET","elementId":74},{"time":28700,"attackerId":52,"type":"TOWER_NEW_TARGET","elementId":74},{"time":28820,"attackerId":52,"type":"TOWER_NEW_TARGET","elementId":77},{"time":28967,"attackerId":6,"type":"TOWER_LOST_TARGET","elementId":71},{"time":28967,"attackerId":37,"type":"TOWER_NEW_TARGET","elementId":71},{"time":29100,"type":"ATTACKER_DIED","elementId":52},{"time":29100,"attackerId":52,"type":"TOWER_LOST_TARGET","elementId":76},{"time":29100,"attackerId":52,"type":"TOWER_LOST_TARGET","elementId":74},{"time":29100,"attackerId":52,"type":"TOWER_LOST_TARGET","elementId":77},{"time":29100,"attackerId":5,"type":"TOWER_NEW_TARGET","elementId":76},{"time":29101,"attackerId":53,"type":"TOWER_NEW_TARGET","elementId":74},{"time":29200,"endsAt":34000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":10},{"time":29333,"endsAt":33333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":38},{"time":29333,"endsAt":37333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":42},{"time":29333,"endsAt":37333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":64},{"time":29500,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":34},{"time":29500,"endsAt":35100,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":34},{"time":29600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":15},{"time":29600,"endsAt":33600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":27},{"time":29600,"endsAt":35200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":15},{"time":29800,"endsAt":33800,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":55},{"time":29800,"endsAt":34600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":29},{"time":29900,"endsAt":32300,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":30},{"time":30000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":47},{"time":30000,"endsAt":39333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":47},{"time":30020,"attackerId":53,"type":"TOWER_NEW_TARGET","elementId":77},{"time":30100,"endsAt":34900,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":32},{"time":30333,"endsAt":38333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":65},{"time":30400,"endsAt":32800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":7},{"time":30400,"endsAt":35200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":11},{"time":30640,"type":"ATTACKER_DIED","elementId":5},{"time":30640,"attackerId":5,"type":"TOWER_LOST_TARGET","elementId":73},{"time":30640,"attackerId":5,"type":"TOWER_LOST_TARGET","elementId":78},{"time":30640,"attackerId":5,"type":"TOWER_LOST_TARGET","elementId":76},{"time":30641,"attackerId":6,"type":"TOWER_NEW_TARGET","elementId":73},{"time":30641,"attackerId":6,"type":"TOWER_NEW_TARGET","elementId":76},{"time":30641,"attackerId":6,"type":"TOWER_NEW_TARGET","elementId":78},{"time":30800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":16},{"time":30800,"endsAt":36400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":16},{"time":31000,"endsAt":35000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":56},{"time":31333,"endsAt":39333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":37},{"time":31333,"endsAt":35333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":39},{"time":31333,"endsAt":39333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":43},{"time":31333,"endsAt":39333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":66},{"time":31400,"endsAt":37000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":53},{"time":31600,"endsAt":34000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":8},{"time":31600,"endsAt":36400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":12},{"time":32000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":17},{"time":32000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":35},{"time":32000,"attackerType":"GRUNT","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":48},{"time":32000,"endsAt":37600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":17},{"time":32000,"endsAt":37600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":35},{"time":32000,"endsAt":41333,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":48},{"time":32100,"endsAt":36100,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":28},{"time":32200,"endsAt":36200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":57},{"time":32300,"endsAt":37100,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":30},{"time":32333,"endsAt":36333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":59},{"time":32333,"endsAt":40333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":67},{"time":32400,"endsAt":34800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":31},{"time":32600,"endsAt":38200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":54},{"time":32600,"endsAt":37400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":33},{"time":32720,"type":"ATTACKER_DIED","elementId":53},{"time":32720,"attackerId":53,"type":"TOWER_LOST_TARGET","elementId":74},{"time":32720,"attackerId":53,"type":"TOWER_LOST_TARGET","elementId":77},{"time":32721,"attackerId":54,"type":"TOWER_NEW_TARGET","elementId":74},{"time":32721,"attackerId":54,"type":"TOWER_NEW_TARGET","elementId":77},{"time":32800,"endsAt":37600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":7},{"time":32800,"endsAt":35200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":9},{"time":32800,"endsAt":37600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":13},{"time":33200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":18},{"time":33200,"endsAt":38800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":18},{"time":33333,"endsAt":41333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":38},{"time":33333,"endsAt":37333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":40},{"time":33333,"endsAt":37333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":60},{"time":33333,"endsAt":41333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":44},{"time":33400,"endsAt":37400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":58},{"time":33600,"endsAt":39200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":27},{"time":33800,"endsAt":39400,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":55},{"time":33967,"attackerId":37,"type":"TOWER_LOST_TARGET","elementId":71},{"time":33967,"attackerId":38,"type":"TOWER_NEW_TARGET","elementId":71},{"time":34000,"endsAt":38800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":8},{"time":34000,"endsAt":36400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":10},{"time":34000,"endsAt":38800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":14},{"time":34120,"attackerId":54,"type":"TOWER_LOST_TARGET","elementId":74},{"time":34120,"attackerId":27,"type":"TOWER_NEW_TARGET","elementId":74},{"time":34333,"endsAt":40999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":6},{"time":34333,"endsAt":38333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":61},{"time":34400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":19},{"time":34400,"endsAt":40000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":19},{"time":34500,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":36},{"time":34500,"endsAt":40100,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":36},{"time":34600,"endsAt":38600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":29},{"time":34660,"type":"ATTACKER_DIED","elementId":6},{"time":34660,"attackerId":6,"type":"TOWER_LOST_TARGET","elementId":73},{"time":34660,"attackerId":6,"type":"TOWER_LOST_TARGET","elementId":76},{"time":34660,"attackerId":6,"type":"TOWER_LOST_TARGET","elementId":78},{"time":34660,"attackerId":37,"type":"TOWER_NEW_TARGET","elementId":78},{"time":34661,"attackerId":37,"type":"TOWER_NEW_TARGET","elementId":73},{"time":34661,"attackerId":37,"type":"TOWER_NEW_TARGET","elementId":76},{"time":34800,"endsAt":39600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":31},{"time":34900,"endsAt":37300,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":32},{"time":35000,"endsAt":40600,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":56},{"time":35100,"endsAt":39900,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":34},{"time":35120,"attackerId":27,"type":"TOWER_LOST_TARGET","elementId":74},{"time":35120,"attackerId":55,"type":"TOWER_NEW_TARGET","elementId":74},{"time":35200,"endsAt":40000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":9},{"time":35200,"endsAt":37600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":11},{"time":35200,"endsAt":40000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":15},{"time":35320,"attackerId":55,"type":"TOWER_LOST_TARGET","elementId":74},{"time":35320,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":74},{"time":35333,"endsAt":43333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":39},{"time":35333,"endsAt":39333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":41},{"time":35333,"endsAt":39333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":62},{"time":35333,"endsAt":43333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":45},{"time":35600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":20},{"time":35600,"endsAt":41200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":20},{"time":35967,"attackerId":38,"type":"TOWER_LOST_TARGET","elementId":71},{"time":35967,"attackerId":39,"type":"TOWER_NEW_TARGET","elementId":71},{"time":36100,"endsAt":41700,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":28},{"time":36200,"endsAt":41800,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":57},{"time":36333,"endsAt":44333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":59},{"time":36333,"endsAt":40333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":63},{"time":36400,"endsAt":41200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":10},{"time":36400,"endsAt":38800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":12},{"time":36400,"endsAt":41200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":16},{"time":36440,"type":"ATTACKER_DIED","elementId":37},{"time":36440,"attackerId":37,"type":"TOWER_LOST_TARGET","elementId":78},{"time":36440,"attackerId":37,"type":"TOWER_LOST_TARGET","elementId":73},{"time":36440,"attackerId":37,"type":"TOWER_LOST_TARGET","elementId":76},{"time":36441,"attackerId":27,"type":"TOWER_NEW_TARGET","elementId":73},{"time":36441,"attackerId":54,"type":"TOWER_NEW_TARGET","elementId":76},{"time":36441,"attackerId":38,"type":"TOWER_NEW_TARGET","elementId":78},{"time":36520,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":74},{"time":36520,"attackerId":28,"type":"TOWER_NEW_TARGET","elementId":74},{"time":36800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":21},{"time":36800,"endsAt":42400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":21},{"time":37100,"endsAt":41100,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":30},{"time":37280,"attackerId":27,"type":"TOWER_LOST_TARGET","elementId":73},{"time":37280,"attackerId":38,"type":"TOWER_NEW_TARGET","elementId":73},{"time":37300,"endsAt":42100,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":32},{"time":37333,"endsAt":45333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":40},{"time":37333,"endsAt":45333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":60},{"time":37333,"endsAt":41333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":42},{"time":37333,"endsAt":41333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":64},{"time":37333,"endsAt":45333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":46},{"time":37400,"endsAt":43000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":58},{"time":37400,"endsAt":39800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":33},{"time":37540,"attackerId":54,"type":"TOWER_NEW_TARGET","elementId":75},{"time":37600,"endsAt":41600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":7},{"time":37600,"endsAt":42400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":11},{"time":37600,"endsAt":40000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":13},{"time":37600,"endsAt":42400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":17},{"time":37600,"endsAt":42400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":35},{"time":37620,"attackerId":28,"type":"TOWER_LOST_TARGET","elementId":74},{"time":37620,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":74},{"time":37720,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":74},{"time":37720,"attackerId":58,"type":"TOWER_NEW_TARGET","elementId":74},{"time":37820,"type":"ATTACKER_DIED","elementId":54},{"time":37820,"attackerId":54,"type":"TOWER_LOST_TARGET","elementId":77},{"time":37820,"attackerId":54,"type":"TOWER_LOST_TARGET","elementId":76},{"time":37820,"attackerId":54,"type":"TOWER_LOST_TARGET","elementId":75},{"time":37821,"attackerId":27,"type":"TOWER_NEW_TARGET","elementId":76},{"time":37821,"attackerId":27,"type":"TOWER_NEW_TARGET","elementId":77},{"time":37967,"attackerId":39,"type":"TOWER_LOST_TARGET","elementId":71},{"time":37967,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":71},{"time":38000,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":22},{"time":38000,"endsAt":43600,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":22},{"time":38333,"endsAt":46333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":61},{"time":38333,"endsAt":42333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":65},{"time":38540,"attackerId":27,"type":"TOWER_NEW_TARGET","elementId":75},{"time":38600,"endsAt":44200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":29},{"time":38800,"endsAt":42800,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":8},{"time":38800,"endsAt":43600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":12},{"time":38800,"endsAt":41200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":14},{"time":38800,"endsAt":43600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":18},{"time":38920,"attackerId":58,"type":"TOWER_LOST_TARGET","elementId":74},{"time":38920,"attackerId":29,"type":"TOWER_NEW_TARGET","elementId":74},{"time":38967,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":71},{"time":38967,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":71},{"time":39200,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":23},{"time":39200,"endsAt":44800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":27},{"time":39200,"endsAt":44800,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":23},{"time":39333,"endsAt":47333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":41},{"time":39333,"endsAt":47333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":62},{"time":39333,"endsAt":43333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":43},{"time":39333,"endsAt":43333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":66},{"time":39333,"endsAt":47333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":47},{"time":39400,"endsAt":45000,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":55},{"time":39600,"endsAt":43600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":31},{"time":39800,"endsAt":44600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":33},{"time":39900,"endsAt":42300,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":34},{"time":39940,"type":"ATTACKER_DIED","elementId":27},{"time":39940,"attackerId":27,"type":"TOWER_LOST_TARGET","elementId":76},{"time":39940,"attackerId":27,"type":"TOWER_LOST_TARGET","elementId":77},{"time":39940,"attackerId":27,"type":"TOWER_LOST_TARGET","elementId":75},{"time":39940,"attackerId":38,"type":"TOWER_NEW_TARGET","elementId":76},{"time":39940,"attackerId":55,"type":"TOWER_NEW_TARGET","elementId":77},{"time":39941,"attackerId":55,"type":"TOWER_NEW_TARGET","elementId":75},{"time":39967,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":71},{"time":39967,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":71},{"time":40000,"endsAt":44000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":9},{"time":40000,"endsAt":44800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":13},{"time":40000,"endsAt":42400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":15},{"time":40000,"endsAt":44800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":19},{"time":40100,"endsAt":44900,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":36},{"time":40120,"attackerId":29,"type":"TOWER_LOST_TARGET","elementId":74},{"time":40120,"attackerId":30,"type":"TOWER_NEW_TARGET","elementId":74},{"time":40160,"attackerId":55,"type":"TOWER_NEW_TARGET","elementId":69},{"time":40260,"attackerId":55,"type":"TOWER_LOST_TARGET","elementId":75},{"time":40260,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":75},{"time":40333,"endsAt":48333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":63},{"time":40333,"endsAt":44333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":67},{"time":40400,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":24},{"time":40400,"endsAt":46000,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":24},{"time":40600,"endsAt":46200,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":56},{"time":40967,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":71},{"time":40967,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":71},{"time":41100,"endsAt":46700,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":30},{"time":41200,"endsAt":45200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":10},{"time":41200,"endsAt":46000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":14},{"time":41200,"endsAt":43600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":16},{"time":41200,"endsAt":46000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":20},{"time":41333,"endsAt":47999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":38},{"time":41333,"endsAt":49333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":42},{"time":41333,"endsAt":49333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":64},{"time":41333,"endsAt":45333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":44},{"time":41333,"endsAt":49333,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":48},{"time":41460,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":75},{"time":41460,"attackerId":28,"type":"TOWER_NEW_TARGET","elementId":75},{"time":41560,"type":"ATTACKER_DIED","elementId":38},{"time":41560,"attackerId":38,"type":"TOWER_LOST_TARGET","elementId":78},{"time":41560,"attackerId":38,"type":"TOWER_LOST_TARGET","elementId":73},{"time":41560,"attackerId":38,"type":"TOWER_LOST_TARGET","elementId":76},{"time":41560,"attackerId":39,"type":"TOWER_NEW_TARGET","elementId":78},{"time":41561,"attackerId":39,"type":"TOWER_NEW_TARGET","elementId":73},{"time":41561,"attackerId":55,"type":"TOWER_NEW_TARGET","elementId":76},{"time":41600,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":25},{"time":41600,"endsAt":47200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":7},{"time":41600,"endsAt":47200,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":25},{"time":41700,"endsAt":47300,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":28},{"time":41800,"endsAt":47400,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":57},{"time":41967,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":71},{"time":41967,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":71},{"time":42000,"attackerId":55,"type":"TOWER_LOST_TARGET","elementId":77},{"time":42000,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":77},{"time":42100,"endsAt":46100,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":32},{"time":42300,"endsAt":47100,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":34},{"time":42333,"endsAt":50333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":65},{"time":42400,"endsAt":46400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":11},{"time":42400,"endsAt":47200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":15},{"time":42400,"endsAt":44800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":17},{"time":42400,"endsAt":44800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":35},{"time":42400,"endsAt":47200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":21},{"time":42560,"attackerId":28,"type":"TOWER_LOST_TARGET","elementId":75},{"time":42560,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":75},{"time":42620,"attackerId":30,"type":"TOWER_LOST_TARGET","elementId":74},{"time":42620,"attackerId":7,"type":"TOWER_NEW_TARGET","elementId":74},{"time":42660,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":75},{"time":42660,"attackerId":58,"type":"TOWER_NEW_TARGET","elementId":75},{"time":42800,"attackerType":"RUNNER","x":160,"y":0,"type":"ATTACKER_SPAWN","elementId":26},{"time":42800,"endsAt":48400,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":8},{"time":42800,"endsAt":48400,"startingCoordinate":{"x":160,"y":0},"endingCoordinate":{"x":160,"y":280},"type":"MOVETO","elementId":26},{"time":42967,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":71},{"time":42967,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":71},{"time":43000,"endsAt":48600,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":58},{"time":43060,"type":"ATTACKER_DIED","elementId":55},{"time":43060,"attackerId":55,"type":"TOWER_LOST_TARGET","elementId":69},{"time":43060,"attackerId":55,"type":"TOWER_LOST_TARGET","elementId":76},{"time":43060,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":76},{"time":43061,"attackerId":56,"type":"TOWER_NEW_TARGET","elementId":69},{"time":43120,"attackerId":7,"type":"TOWER_LOST_TARGET","elementId":74},{"time":43120,"attackerId":8,"type":"TOWER_NEW_TARGET","elementId":74},{"time":43200,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":77},{"time":43200,"attackerId":28,"type":"TOWER_NEW_TARGET","elementId":77},{"time":43333,"endsAt":49999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":39},{"time":43333,"endsAt":51333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":43},{"time":43333,"endsAt":51333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":66},{"time":43333,"endsAt":47333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":45},{"time":43600,"endsAt":49200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":31},{"time":43600,"endsAt":47600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":12},{"time":43600,"endsAt":48400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":16},{"time":43600,"endsAt":46000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":18},{"time":43600,"endsAt":48400,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":22},{"time":43660,"type":"ATTACKER_DIED","elementId":56},{"time":43660,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":76},{"time":43660,"attackerId":56,"type":"TOWER_LOST_TARGET","elementId":69},{"time":43661,"attackerId":28,"type":"TOWER_NEW_TARGET","elementId":69},{"time":43661,"attackerId":39,"type":"TOWER_NEW_TARGET","elementId":76},{"time":43860,"attackerId":58,"type":"TOWER_LOST_TARGET","elementId":75},{"time":43860,"attackerId":29,"type":"TOWER_NEW_TARGET","elementId":75},{"time":43967,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":71},{"time":43967,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":71},{"time":44000,"endsAt":49600,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":9},{"time":44200,"endsAt":49800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":29},{"time":44300,"attackerId":28,"type":"TOWER_LOST_TARGET","elementId":77},{"time":44300,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":77},{"time":44320,"attackerId":8,"type":"TOWER_LOST_TARGET","elementId":74},{"time":44320,"attackerId":31,"type":"TOWER_NEW_TARGET","elementId":74},{"time":44333,"endsAt":50999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":59},{"time":44333,"endsAt":52333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":67},{"time":44400,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":77},{"time":44400,"attackerId":58,"type":"TOWER_NEW_TARGET","elementId":77},{"time":44600,"endsAt":48600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":33},{"time":44760,"type":"ATTACKER_DIED","elementId":28},{"time":44760,"attackerId":28,"type":"TOWER_LOST_TARGET","elementId":69},{"time":44761,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":69},{"time":44800,"endsAt":48800,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":13},{"time":44800,"endsAt":49600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":17},{"time":44800,"endsAt":49600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":35},{"time":44800,"endsAt":47200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":19},{"time":44800,"endsAt":49600,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":23},{"time":44900,"endsAt":47300,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":36},{"time":44967,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":71},{"time":44967,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":71},{"time":45060,"attackerId":29,"type":"TOWER_LOST_TARGET","elementId":75},{"time":45120,"attackerId":31,"type":"TOWER_LOST_TARGET","elementId":74},{"time":45120,"attackerId":9,"type":"TOWER_NEW_TARGET","elementId":74},{"time":45200,"endsAt":50800,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":10},{"time":45333,"endsAt":51999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":40},{"time":45333,"endsAt":51999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":60},{"time":45333,"endsAt":53333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":44},{"time":45333,"endsAt":49333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":46},{"time":45520,"attackerId":9,"type":"TOWER_LOST_TARGET","elementId":74},{"time":45520,"attackerId":10,"type":"TOWER_NEW_TARGET","elementId":74},{"time":45600,"attackerId":58,"type":"TOWER_LOST_TARGET","elementId":77},{"time":45600,"attackerId":29,"type":"TOWER_NEW_TARGET","elementId":77},{"time":45967,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":71},{"time":45967,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":71},{"time":46000,"endsAt":50000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":14},{"time":46000,"endsAt":50800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":18},{"time":46000,"endsAt":48400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":20},{"time":46000,"endsAt":50800,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":24},{"time":46040,"attackerId":30,"type":"TOWER_NEW_TARGET","elementId":75},{"time":46100,"endsAt":51700,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":32},{"time":46140,"type":"ATTACKER_DIED","elementId":39},{"time":46140,"attackerId":39,"type":"TOWER_LOST_TARGET","elementId":78},{"time":46140,"attackerId":39,"type":"TOWER_LOST_TARGET","elementId":73},{"time":46140,"attackerId":39,"type":"TOWER_LOST_TARGET","elementId":76},{"time":46141,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":73},{"time":46141,"attackerId":57,"type":"TOWER_NEW_TARGET","elementId":76},{"time":46141,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":78},{"time":46333,"endsAt":52999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":61},{"time":46400,"endsAt":52000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":11},{"time":46700,"endsAt":52300,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":30},{"time":46720,"attackerId":10,"type":"TOWER_LOST_TARGET","elementId":74},{"time":46720,"attackerId":32,"type":"TOWER_NEW_TARGET","elementId":74},{"time":46800,"attackerId":29,"type":"TOWER_LOST_TARGET","elementId":77},{"time":46800,"attackerId":30,"type":"TOWER_NEW_TARGET","elementId":77},{"time":46967,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":71},{"time":46967,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":71},{"time":47100,"endsAt":51100,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":34},{"time":47200,"endsAt":52800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":7},{"time":47200,"endsAt":51200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":15},{"time":47200,"endsAt":52000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":19},{"time":47200,"endsAt":49600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":21},{"time":47200,"endsAt":52000,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":25},{"time":47300,"endsAt":52100,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":36},{"time":47333,"endsAt":53999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":41},{"time":47333,"endsAt":53999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":62},{"time":47333,"endsAt":55333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":45},{"time":47333,"endsAt":51333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":47},{"time":47400,"endsAt":53000,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":57},{"time":47560,"attackerId":30,"type":"TOWER_LOST_TARGET","elementId":75},{"time":47560,"attackerId":7,"type":"TOWER_NEW_TARGET","elementId":75},{"time":47600,"endsAt":53200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":12},{"time":47620,"attackerId":32,"type":"TOWER_LOST_TARGET","elementId":74},{"time":47620,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":74},{"time":47700,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":78},{"time":47700,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":78},{"time":47967,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":71},{"time":47967,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":71},{"time":48060,"attackerId":7,"type":"TOWER_LOST_TARGET","elementId":75},{"time":48060,"attackerId":8,"type":"TOWER_NEW_TARGET","elementId":75},{"time":48320,"type":"ATTACKER_DIED","elementId":30},{"time":48320,"attackerId":30,"type":"TOWER_LOST_TARGET","elementId":77},{"time":48321,"attackerId":7,"type":"TOWER_NEW_TARGET","elementId":77},{"time":48333,"endsAt":54999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":63},{"time":48400,"endsAt":54000,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":8},{"time":48400,"endsAt":52400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":16},{"time":48400,"endsAt":53200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":20},{"time":48400,"endsAt":50800,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":22},{"time":48400,"endsAt":53200,"startingCoordinate":{"x":160,"y":280},"endingCoordinate":{"x":400,"y":280},"type":"MOVETO","elementId":26},{"time":48460,"type":"ATTACKER_DIED","elementId":57},{"time":48460,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":69},{"time":48460,"attackerId":57,"type":"TOWER_LOST_TARGET","elementId":76},{"time":48460,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":76},{"time":48461,"attackerId":58,"type":"TOWER_NEW_TARGET","elementId":69},{"time":48600,"endsAt":54200,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":58},{"time":48600,"endsAt":54200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":33},{"time":48700,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":78},{"time":48700,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":78},{"time":48800,"endsAt":54400,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":13},{"time":49200,"endsAt":54800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":31},{"time":49260,"type":"ATTACKER_DIED","elementId":58},{"time":49260,"attackerId":58,"type":"TOWER_LOST_TARGET","elementId":69},{"time":49260,"attackerId":8,"type":"TOWER_LOST_TARGET","elementId":75},{"time":49260,"attackerId":31,"type":"TOWER_NEW_TARGET","elementId":75},{"time":49261,"attackerId":29,"type":"TOWER_NEW_TARGET","elementId":69},{"time":49333,"endsAt":55999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":42},{"time":49333,"endsAt":55999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":64},{"time":49333,"endsAt":57333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":46},{"time":49333,"endsAt":53333,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":48},{"time":49600,"endsAt":55200,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":9},{"time":49600,"endsAt":53600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":17},{"time":49600,"endsAt":53600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":35},{"time":49600,"endsAt":54400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":21},{"time":49600,"endsAt":52000,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":23},{"time":49700,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":78},{"time":49700,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":78},{"time":49800,"endsAt":55400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":29},{"time":49800,"attackerId":7,"type":"TOWER_LOST_TARGET","elementId":77},{"time":49800,"attackerId":59,"type":"TOWER_NEW_TARGET","elementId":77},{"time":49967,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":71},{"time":49967,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":71},{"time":50000,"endsAt":55600,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":14},{"time":50060,"attackerId":31,"type":"TOWER_LOST_TARGET","elementId":75},{"time":50060,"attackerId":9,"type":"TOWER_NEW_TARGET","elementId":75},{"time":50333,"endsAt":56999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":65},{"time":50460,"attackerId":9,"type":"TOWER_LOST_TARGET","elementId":75},{"time":50460,"attackerId":10,"type":"TOWER_NEW_TARGET","elementId":75},{"time":50700,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":78},{"time":50700,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":78},{"time":50800,"endsAt":56400,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":10},{"time":50800,"endsAt":54800,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":18},{"time":50800,"endsAt":55600,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":22},{"time":50800,"endsAt":53200,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":24},{"time":50860,"type":"ATTACKER_DIED","elementId":59},{"time":50860,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":73},{"time":50860,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":74},{"time":50860,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":76},{"time":50860,"attackerId":59,"type":"TOWER_LOST_TARGET","elementId":77},{"time":50860,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":77},{"time":50861,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":73},{"time":50861,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":74},{"time":50861,"attackerId":40,"type":"TOWER_NEW_TARGET","elementId":76},{"time":51100,"endsAt":56700,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":34},{"time":51200,"endsAt":56800,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":15},{"time":51260,"type":"ATTACKER_DIED","elementId":29},{"time":51260,"attackerId":29,"type":"TOWER_LOST_TARGET","elementId":69},{"time":51261,"attackerId":7,"type":"TOWER_NEW_TARGET","elementId":69},{"time":51333,"endsAt":57999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":43},{"time":51333,"endsAt":57999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":66},{"time":51333,"endsAt":59333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":47},{"time":51660,"attackerId":10,"type":"TOWER_LOST_TARGET","elementId":75},{"time":51660,"attackerId":32,"type":"TOWER_NEW_TARGET","elementId":75},{"time":51700,"endsAt":57300,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":32},{"time":51700,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":78},{"time":51700,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":78},{"time":51967,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":71},{"time":51967,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":71},{"time":51999,"endsAt":61332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":40},{"time":51999,"endsAt":61332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":60},{"time":52000,"endsAt":57600,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":11},{"time":52000,"endsAt":56000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":19},{"time":52000,"endsAt":56800,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":23},{"time":52000,"endsAt":54400,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":25},{"time":52100,"endsAt":56100,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":36},{"time":52333,"endsAt":58999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":67},{"time":52400,"endsAt":58000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":16},{"time":52560,"attackerId":32,"type":"TOWER_LOST_TARGET","elementId":75},{"time":52560,"attackerId":11,"type":"TOWER_NEW_TARGET","elementId":75},{"time":52700,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":78},{"time":52700,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":78},{"time":52800,"endsAt":58400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":7},{"time":52860,"attackerId":11,"type":"TOWER_LOST_TARGET","elementId":75},{"time":52860,"attackerId":12,"type":"TOWER_NEW_TARGET","elementId":75},{"time":52999,"endsAt":62332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":61},{"time":53200,"endsAt":58800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":12},{"time":53200,"endsAt":57200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":20},{"time":53200,"endsAt":58000,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":24},{"time":53200,"endsAt":55600,"startingCoordinate":{"x":400,"y":280},"endingCoordinate":{"x":400,"y":160},"type":"MOVETO","elementId":26},{"time":53333,"endsAt":59999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":44},{"time":53333,"endsAt":61333,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":48},{"time":53600,"endsAt":59200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":17},{"time":53600,"endsAt":59200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":35},{"time":53700,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":78},{"time":53700,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":78},{"time":53967,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":71},{"time":53967,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":71},{"time":53999,"endsAt":63332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":41},{"time":53999,"endsAt":63332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":62},{"time":54000,"endsAt":59600,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":8},{"time":54020,"type":"ATTACKER_DIED","elementId":40},{"time":54020,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":77},{"time":54020,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":73},{"time":54020,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":74},{"time":54020,"attackerId":40,"type":"TOWER_LOST_TARGET","elementId":76},{"time":54021,"attackerId":60,"type":"TOWER_NEW_TARGET","elementId":73},{"time":54021,"attackerId":60,"type":"TOWER_NEW_TARGET","elementId":74},{"time":54021,"attackerId":60,"type":"TOWER_NEW_TARGET","elementId":76},{"time":54021,"attackerId":60,"type":"TOWER_NEW_TARGET","elementId":77},{"time":54060,"attackerId":12,"type":"TOWER_LOST_TARGET","elementId":75},{"time":54060,"attackerId":33,"type":"TOWER_NEW_TARGET","elementId":75},{"time":54200,"endsAt":59800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":33},{"time":54400,"endsAt":60000,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":13},{"time":54400,"endsAt":58400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":21},{"time":54400,"endsAt":59200,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":25},{"time":54533,"attackerId":60,"type":"TOWER_LOST_TARGET","elementId":74},{"time":54533,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":74},{"time":54660,"type":"ATTACKER_DIED","elementId":7},{"time":54660,"attackerId":7,"type":"TOWER_LOST_TARGET","elementId":69},{"time":54661,"attackerId":8,"type":"TOWER_NEW_TARGET","elementId":69},{"time":54700,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":78},{"time":54700,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":78},{"time":54800,"endsAt":60400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":31},{"time":54800,"endsAt":60400,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":18},{"time":54999,"endsAt":64332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":63},{"time":55060,"attackerId":33,"type":"TOWER_LOST_TARGET","elementId":75},{"time":55060,"attackerId":13,"type":"TOWER_NEW_TARGET","elementId":75},{"time":55200,"endsAt":60800,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":9},{"time":55260,"attackerId":13,"type":"TOWER_LOST_TARGET","elementId":75},{"time":55260,"attackerId":14,"type":"TOWER_NEW_TARGET","elementId":75},{"time":55333,"endsAt":61999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":45},{"time":55533,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":74},{"time":55533,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":74},{"time":55600,"endsAt":61200,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":14},{"time":55600,"endsAt":59600,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":22},{"time":55600,"endsAt":60400,"startingCoordinate":{"x":400,"y":160},"endingCoordinate":{"x":640,"y":160},"type":"MOVETO","elementId":26},{"time":55700,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":78},{"time":55700,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":78},{"time":55967,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":71},{"time":55967,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":71},{"time":55980,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":71},{"time":55980,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":71},{"time":55999,"endsAt":65332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":42},{"time":55999,"endsAt":65332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":64},{"time":56000,"endsAt":61600,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":19},{"time":56100,"endsAt":61700,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":36},{"time":56400,"endsAt":62000,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":10},{"time":56460,"attackerId":14,"type":"TOWER_LOST_TARGET","elementId":75},{"time":56460,"attackerId":34,"type":"TOWER_NEW_TARGET","elementId":75},{"time":56533,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":74},{"time":56533,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":74},{"time":56700,"endsAt":62300,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":34},{"time":56700,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":78},{"time":56700,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":78},{"time":56800,"endsAt":62400,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":15},{"time":56800,"endsAt":60800,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":23},{"time":56999,"endsAt":66332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":65},{"time":57180,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":71},{"time":57200,"endsAt":62800,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":20},{"time":57260,"type":"ATTACKER_DIED","elementId":8},{"time":57260,"attackerId":8,"type":"TOWER_LOST_TARGET","elementId":69},{"time":57261,"attackerId":31,"type":"TOWER_NEW_TARGET","elementId":69},{"time":57300,"endsAt":62900,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":32},{"time":57333,"endsAt":63999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":46},{"time":57533,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":74},{"time":57533,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":74},{"time":57560,"attackerId":34,"type":"TOWER_LOST_TARGET","elementId":75},{"time":57560,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":75},{"time":57600,"endsAt":63200,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":11},{"time":57660,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":75},{"time":57660,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":75},{"time":57999,"endsAt":67332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":43},{"time":57999,"endsAt":67332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":66},{"time":58000,"endsAt":63600,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":16},{"time":58000,"endsAt":62000,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":24},{"time":58133,"attackerId":60,"type":"TOWER_LOST_TARGET","elementId":73},{"time":58133,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":73},{"time":58400,"endsAt":64000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":21},{"time":58533,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":74},{"time":58533,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":74},{"time":58700,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":78},{"time":58700,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":78},{"time":58800,"endsAt":64400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":12},{"time":58860,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":75},{"time":58860,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":75},{"time":58999,"endsAt":68332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":67},{"time":59133,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":73},{"time":59133,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":73},{"time":59200,"endsAt":64800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":17},{"time":59200,"endsAt":64800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":35},{"time":59200,"endsAt":63200,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":25},{"time":59333,"endsAt":65999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":47},{"time":59533,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":74},{"time":59533,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":74},{"time":59600,"endsAt":65200,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":22},{"time":59800,"endsAt":65400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":33},{"time":59999,"endsAt":69332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":44},{"time":60000,"endsAt":65600,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":13},{"time":60060,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":75},{"time":60060,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":75},{"time":60133,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":73},{"time":60133,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":73},{"time":60400,"endsAt":70000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":31},{"time":60400,"endsAt":66000,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":18},{"time":60400,"endsAt":64400,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":26},{"time":60533,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":74},{"time":60533,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":74},{"time":60660,"type":"ATTACKER_DIED","elementId":31},{"time":60660,"attackerId":31,"type":"TOWER_LOST_TARGET","elementId":69},{"time":60661,"attackerId":9,"type":"TOWER_NEW_TARGET","elementId":69},{"time":60700,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":78},{"time":60700,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":78},{"time":60800,"endsAt":70400,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":9},{"time":60800,"endsAt":66400,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":23},{"time":61133,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":73},{"time":61133,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":73},{"time":61200,"endsAt":66800,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":14},{"time":61260,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":75},{"time":61260,"attackerId":60,"type":"TOWER_NEW_TARGET","elementId":75},{"time":61332,"endsAt":70665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":60},{"time":61333,"endsAt":67999,"startingCoordinate":{"x":640,"y":160},"endingCoordinate":{"x":640,"y":360},"type":"MOVETO","elementId":48},{"time":61440,"type":"ATTACKER_DIED","elementId":60},{"time":61440,"attackerId":60,"type":"TOWER_LOST_TARGET","elementId":76},{"time":61440,"attackerId":60,"type":"TOWER_LOST_TARGET","elementId":77},{"time":61440,"attackerId":60,"type":"TOWER_LOST_TARGET","elementId":75},{"time":61440,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":76},{"time":61440,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":77},{"time":61441,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":75},{"time":61533,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":74},{"time":61533,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":74},{"time":61600,"endsAt":67200,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":19},{"time":61700,"endsAt":67300,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":36},{"time":61999,"endsAt":71332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":45},{"time":62000,"endsAt":71600,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":10},{"time":62000,"endsAt":67600,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":24},{"time":62133,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":73},{"time":62133,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":73},{"time":62300,"endsAt":67900,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":34},{"time":62332,"endsAt":71665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":61},{"time":62400,"endsAt":68000,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":15},{"time":62533,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":74},{"time":62533,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":74},{"time":62700,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":78},{"time":62700,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":78},{"time":62800,"endsAt":68400,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":20},{"time":62900,"endsAt":72500,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":32},{"time":63133,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":73},{"time":63133,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":73},{"time":63200,"endsAt":72800,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":11},{"time":63200,"endsAt":68800,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":25},{"time":63332,"endsAt":72665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":41},{"time":63332,"endsAt":72665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":62},{"time":63600,"endsAt":69200,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":16},{"time":63766,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":75},{"time":63766,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":75},{"time":63999,"endsAt":73332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":46},{"time":64000,"endsAt":69600,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":21},{"time":64133,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":73},{"time":64133,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":73},{"time":64332,"endsAt":73665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":63},{"time":64400,"endsAt":74000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":12},{"time":64400,"endsAt":70000,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":26},{"time":64533,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":74},{"time":64533,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":74},{"time":64700,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":78},{"time":64766,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":75},{"time":64766,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":75},{"time":64800,"endsAt":70400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":17},{"time":64800,"endsAt":70400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":35},{"time":64860,"type":"ATTACKER_DIED","elementId":9},{"time":64860,"attackerId":9,"type":"TOWER_LOST_TARGET","elementId":69},{"time":64861,"attackerId":61,"type":"TOWER_NEW_TARGET","elementId":69},{"time":65133,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":73},{"time":65133,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":73},{"time":65200,"endsAt":70800,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":22},{"time":65260,"type":"ATTACKER_DIED","elementId":61},{"time":65260,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":76},{"time":65260,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":77},{"time":65260,"attackerId":61,"type":"TOWER_LOST_TARGET","elementId":69},{"time":65260,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":76},{"time":65260,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":77},{"time":65261,"attackerId":41,"type":"TOWER_NEW_TARGET","elementId":69},{"time":65332,"endsAt":74665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":42},{"time":65332,"endsAt":74665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":64},{"time":65400,"endsAt":75000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":33},{"time":65600,"endsAt":75200,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":13},{"time":65766,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":75},{"time":65766,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":75},{"time":65999,"endsAt":75332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":47},{"time":66000,"endsAt":71600,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":18},{"time":66133,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":73},{"time":66133,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":73},{"time":66332,"endsAt":75665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":65},{"time":66400,"endsAt":72000,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":23},{"time":66533,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":74},{"time":66533,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":74},{"time":66766,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":75},{"time":66766,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":75},{"time":66800,"endsAt":76400,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":14},{"time":67200,"endsAt":72800,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":19},{"time":67300,"endsAt":72900,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":36},{"time":67332,"endsAt":76665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":43},{"time":67332,"endsAt":76665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":66},{"time":67600,"endsAt":73200,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":24},{"time":67666,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":77},{"time":67666,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":77},{"time":67766,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":75},{"time":67766,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":75},{"time":67900,"endsAt":77500,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":34},{"time":67999,"endsAt":77332,"startingCoordinate":{"x":640,"y":360},"endingCoordinate":{"x":920,"y":360},"type":"MOVETO","elementId":48},{"time":68000,"endsAt":77600,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":15},{"time":68133,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":73},{"time":68133,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":73},{"time":68160,"type":"ATTACKER_DIED","elementId":41},{"time":68160,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":76},{"time":68160,"attackerId":41,"type":"TOWER_LOST_TARGET","elementId":69},{"time":68160,"attackerId":62,"type":"TOWER_NEW_TARGET","elementId":76},{"time":68161,"attackerId":62,"type":"TOWER_NEW_TARGET","elementId":69},{"time":68332,"endsAt":77665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":67},{"time":68400,"endsAt":74000,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":20},{"time":68533,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":74},{"time":68533,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":74},{"time":68666,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":77},{"time":68666,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":77},{"time":68766,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":75},{"time":68766,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":75},{"time":68800,"endsAt":74400,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":25},{"time":69200,"endsAt":78800,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":16},{"time":69332,"endsAt":78665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":44},{"time":69600,"endsAt":75200,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":21},{"time":69666,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":77},{"time":69666,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":77},{"time":69766,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":75},{"time":69766,"attackerId":10,"type":"TOWER_NEW_TARGET","elementId":75},{"time":70000,"endsAt":75600,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":26},{"time":70133,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":73},{"time":70133,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":73},{"time":70400,"endsAt":80000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":17},{"time":70400,"endsAt":80000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":35},{"time":70533,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":74},{"time":70666,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":77},{"time":70666,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":77},{"time":70800,"endsAt":76400,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":22},{"time":71332,"endsAt":80665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":45},{"time":71600,"endsAt":75600,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":10},{"time":71600,"endsAt":81200,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":18},{"time":71666,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":77},{"time":71666,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":77},{"time":72000,"endsAt":77600,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":23},{"time":72133,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":73},{"time":72133,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":73},{"time":72340,"type":"ATTACKER_DIED","elementId":10},{"time":72340,"attackerId":10,"type":"TOWER_LOST_TARGET","elementId":75},{"time":72341,"attackerId":32,"type":"TOWER_NEW_TARGET","elementId":75},{"time":72500,"endsAt":76500,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":32},{"time":72665,"endsAt":81998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":62},{"time":72666,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":77},{"time":72666,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":77},{"time":72800,"endsAt":76800,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":11},{"time":72800,"endsAt":82400,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":19},{"time":72900,"endsAt":82500,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":36},{"time":73200,"endsAt":78800,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":24},{"time":73332,"endsAt":82665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":46},{"time":73665,"endsAt":82998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":63},{"time":73666,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":77},{"time":73666,"attackerId":32,"type":"TOWER_NEW_TARGET","elementId":77},{"time":74000,"endsAt":78000,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":12},{"time":74000,"endsAt":83600,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":20},{"time":74133,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":73},{"time":74400,"endsAt":80000,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":25},{"time":74665,"endsAt":83998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":42},{"time":74665,"endsAt":83998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":64},{"time":74860,"type":"ATTACKER_DIED","elementId":62},{"time":74860,"attackerId":62,"type":"TOWER_LOST_TARGET","elementId":76},{"time":74860,"attackerId":62,"type":"TOWER_LOST_TARGET","elementId":69},{"time":74860,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":76},{"time":74861,"attackerId":63,"type":"TOWER_NEW_TARGET","elementId":69},{"time":74940,"type":"ATTACKER_DIED","elementId":32},{"time":74940,"attackerId":32,"type":"TOWER_LOST_TARGET","elementId":75},{"time":74940,"attackerId":32,"type":"TOWER_LOST_TARGET","elementId":77},{"time":74940,"attackerId":11,"type":"TOWER_NEW_TARGET","elementId":77},{"time":74941,"attackerId":11,"type":"TOWER_NEW_TARGET","elementId":75},{"time":75000,"endsAt":79000,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":33},{"time":75200,"endsAt":79200,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":13},{"time":75200,"endsAt":84800,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":21},{"time":75332,"endsAt":84665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":47},{"time":75600,"endsAt":81200,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":26},{"time":75665,"endsAt":84998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":65},{"time":76400,"endsAt":80400,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":14},{"time":76400,"endsAt":86000,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":22},{"time":76665,"endsAt":85998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":43},{"time":76665,"endsAt":85998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":66},{"time":76765,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":76},{"time":76765,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":76},{"time":76800,"endsAt":80800,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":11},{"time":77332,"endsAt":86665,"startingCoordinate":{"x":920,"y":360},"endingCoordinate":{"x":920,"y":80},"type":"MOVETO","elementId":48},{"time":77500,"endsAt":81500,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":34},{"time":77600,"endsAt":81600,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":15},{"time":77600,"endsAt":87200,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":23},{"time":77665,"endsAt":86998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":67},{"time":77765,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":76},{"time":77765,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":76},{"time":78000,"endsAt":82000,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":12},{"time":78040,"type":"ATTACKER_DIED","elementId":11},{"time":78040,"attackerId":11,"type":"TOWER_LOST_TARGET","elementId":77},{"time":78040,"attackerId":11,"type":"TOWER_LOST_TARGET","elementId":75},{"time":78040,"attackerId":12,"type":"TOWER_NEW_TARGET","elementId":77},{"time":78041,"attackerId":12,"type":"TOWER_NEW_TARGET","elementId":75},{"time":78665,"endsAt":87998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":44},{"time":78765,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":76},{"time":78765,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":76},{"time":78800,"endsAt":82800,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":16},{"time":78800,"endsAt":88400,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":24},{"time":78960,"type":"ATTACKER_DIED","elementId":63},{"time":78960,"attackerId":63,"type":"TOWER_LOST_TARGET","elementId":69},{"time":78961,"attackerId":42,"type":"TOWER_NEW_TARGET","elementId":69},{"time":79000,"endsAt":83000,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":33},{"time":79200,"endsAt":83200,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":13},{"time":79765,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":76},{"time":79765,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":76},{"time":79820,"attackerId":12,"type":"TOWER_LOST_TARGET","elementId":75},{"time":79820,"attackerId":33,"type":"TOWER_NEW_TARGET","elementId":75},{"time":80000,"endsAt":84000,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":17},{"time":80000,"endsAt":84000,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":35},{"time":80000,"endsAt":89600,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":25},{"time":80400,"endsAt":84400,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":14},{"time":80665,"endsAt":89998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":45},{"time":80765,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":76},{"time":80765,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":76},{"time":80820,"attackerId":33,"type":"TOWER_LOST_TARGET","elementId":75},{"time":80820,"attackerId":13,"type":"TOWER_NEW_TARGET","elementId":75},{"time":81020,"attackerId":13,"type":"TOWER_LOST_TARGET","elementId":75},{"time":81020,"attackerId":14,"type":"TOWER_NEW_TARGET","elementId":75},{"time":81200,"endsAt":85200,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":18},{"time":81200,"endsAt":90800,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":26},{"time":81500,"endsAt":85500,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":34},{"time":81600,"endsAt":85600,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":15},{"time":81765,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":76},{"time":81765,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":76},{"time":82000,"endsAt":88400,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":12},{"time":82220,"attackerId":14,"type":"TOWER_LOST_TARGET","elementId":75},{"time":82220,"attackerId":34,"type":"TOWER_NEW_TARGET","elementId":75},{"time":82220,"type":"ATTACKER_DIED","elementId":12},{"time":82220,"attackerId":12,"type":"TOWER_LOST_TARGET","elementId":77},{"time":82221,"attackerId":33,"type":"TOWER_NEW_TARGET","elementId":77},{"time":82400,"endsAt":86400,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":19},{"time":82500,"endsAt":86500,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":36},{"time":82665,"endsAt":91998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":46},{"time":82800,"endsAt":86800,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":16},{"time":83000,"endsAt":89400,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":33},{"time":83200,"endsAt":89600,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":13},{"time":83320,"attackerId":34,"type":"TOWER_LOST_TARGET","elementId":75},{"time":83320,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":75},{"time":83360,"type":"ATTACKER_DIED","elementId":42},{"time":83360,"attackerId":42,"type":"TOWER_LOST_TARGET","elementId":69},{"time":83361,"attackerId":64,"type":"TOWER_NEW_TARGET","elementId":69},{"time":83420,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":75},{"time":83420,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":75},{"time":83600,"endsAt":87600,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":20},{"time":83765,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":76},{"time":83765,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":76},{"time":83998,"endsAt":99998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":64},{"time":84000,"endsAt":88000,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":17},{"time":84000,"endsAt":88000,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":35},{"time":84400,"endsAt":90800,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":14},{"time":84620,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":75},{"time":84620,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":75},{"time":84665,"endsAt":93998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":47},{"time":84800,"endsAt":88800,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":21},{"time":84998,"endsAt":100998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":65},{"time":85200,"endsAt":89200,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":18},{"time":85500,"endsAt":91900,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":34},{"time":85600,"endsAt":92000,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":15},{"time":85765,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":76},{"time":85765,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":76},{"time":85820,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":75},{"time":85820,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":75},{"time":85998,"endsAt":101998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":43},{"time":85998,"endsAt":101998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":66},{"time":86000,"endsAt":90000,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":22},{"time":86400,"endsAt":90400,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":19},{"time":86500,"endsAt":90500,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":36},{"time":86665,"endsAt":95998,"startingCoordinate":{"x":920,"y":80},"endingCoordinate":{"x":1200,"y":80},"type":"MOVETO","elementId":48},{"time":86800,"endsAt":93200,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":16},{"time":86998,"endsAt":102998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":67},{"time":87020,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":75},{"time":87020,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":75},{"time":87200,"endsAt":91200,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":23},{"time":87600,"endsAt":91600,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":20},{"time":87765,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":76},{"time":87765,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":76},{"time":87998,"endsAt":103998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":44},{"time":88000,"endsAt":94400,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":17},{"time":88000,"endsAt":94400,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":35},{"time":88200,"attackerId":33,"type":"TOWER_NEW_TARGET","elementId":70},{"time":88220,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":75},{"time":88220,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":75},{"time":88220,"type":"ATTACKER_DIED","elementId":33},{"time":88220,"attackerId":33,"type":"TOWER_LOST_TARGET","elementId":77},{"time":88220,"attackerId":33,"type":"TOWER_LOST_TARGET","elementId":70},{"time":88221,"attackerId":13,"type":"TOWER_NEW_TARGET","elementId":77},{"time":88320,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":75},{"time":88320,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":75},{"time":88400,"endsAt":92400,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":24},{"time":88400,"attackerId":13,"type":"TOWER_NEW_TARGET","elementId":70},{"time":88800,"endsAt":92800,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":21},{"time":89200,"endsAt":95600,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":18},{"time":89420,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":75},{"time":89420,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":75},{"time":89600,"endsAt":94400,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":13},{"time":89600,"endsAt":93600,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":25},{"time":89765,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":76},{"time":89998,"endsAt":105998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":45},{"time":90000,"endsAt":94000,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":22},{"time":90400,"endsAt":96800,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":19},{"time":90500,"endsAt":96900,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":36},{"time":90620,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":75},{"time":90620,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":75},{"time":90800,"endsAt":95600,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":14},{"time":90800,"endsAt":94800,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":26},{"time":91200,"endsAt":95200,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":23},{"time":91400,"type":"ATTACKER_DIED","elementId":13},{"time":91400,"attackerId":13,"type":"TOWER_LOST_TARGET","elementId":77},{"time":91400,"attackerId":13,"type":"TOWER_LOST_TARGET","elementId":70},{"time":91400,"attackerId":14,"type":"TOWER_NEW_TARGET","elementId":77},{"time":91401,"attackerId":14,"type":"TOWER_NEW_TARGET","elementId":70},{"time":91600,"endsAt":98000,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":20},{"time":91820,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":75},{"time":91820,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":75},{"time":91900,"endsAt":96700,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":34},{"time":91998,"endsAt":107998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":46},{"time":92000,"endsAt":96800,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":15},{"time":92098,"attackerId":64,"type":"TOWER_LOST_TARGET","elementId":69},{"time":92098,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":69},{"time":92400,"endsAt":96400,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":24},{"time":92800,"endsAt":99200,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":21},{"time":93020,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":75},{"time":93020,"attackerId":64,"type":"TOWER_NEW_TARGET","elementId":75},{"time":93098,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":69},{"time":93098,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":69},{"time":93100,"type":"ATTACKER_DIED","elementId":14},{"time":93100,"attackerId":14,"type":"TOWER_LOST_TARGET","elementId":77},{"time":93100,"attackerId":14,"type":"TOWER_LOST_TARGET","elementId":70},{"time":93100,"attackerId":34,"type":"TOWER_NEW_TARGET","elementId":77},{"time":93101,"attackerId":34,"type":"TOWER_NEW_TARGET","elementId":70},{"time":93200,"endsAt":98000,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":16},{"time":93600,"endsAt":97600,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":25},{"time":93998,"endsAt":109998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":47},{"time":94000,"endsAt":100400,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":22},{"time":94098,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":69},{"time":94098,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":69},{"time":94240,"type":"ATTACKER_DIED","elementId":64},{"time":94240,"attackerId":64,"type":"TOWER_LOST_TARGET","elementId":75},{"time":94241,"attackerId":65,"type":"TOWER_NEW_TARGET","elementId":75},{"time":94400,"endsAt":99200,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":17},{"time":94400,"endsAt":99200,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":35},{"time":94800,"endsAt":98800,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":26},{"time":95000,"type":"ATTACKER_DIED","elementId":34},{"time":95000,"attackerId":34,"type":"TOWER_LOST_TARGET","elementId":77},{"time":95000,"attackerId":34,"type":"TOWER_LOST_TARGET","elementId":70},{"time":95000,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":77},{"time":95001,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":70},{"time":95098,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":69},{"time":95098,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":69},{"time":95140,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":76},{"time":95200,"endsAt":101600,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":23},{"time":95600,"endsAt":100400,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":18},{"time":95998,"endsAt":111998,"startingCoordinate":{"x":1200,"y":80},"endingCoordinate":{"x":1200,"y":560},"type":"MOVETO","elementId":48},{"time":96098,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":69},{"time":96098,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":69},{"time":96400,"endsAt":102800,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":24},{"time":96460,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":73},{"time":96800,"endsAt":108000,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":15},{"time":96800,"endsAt":101600,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":19},{"time":96800,"attackerId":15,"type":"TOWER_NEW_TARGET","elementId":74},{"time":96900,"endsAt":101700,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":36},{"time":97060,"type":"ATTACKER_DIED","elementId":15},{"time":97060,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":77},{"time":97060,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":70},{"time":97060,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":76},{"time":97060,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":73},{"time":97060,"attackerId":15,"type":"TOWER_LOST_TARGET","elementId":74},{"time":97060,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":76},{"time":97060,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":77},{"time":97061,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":70},{"time":97600,"endsAt":104000,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":25},{"time":97660,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":73},{"time":97740,"type":"ATTACKER_DIED","elementId":65},{"time":97740,"attackerId":65,"type":"TOWER_LOST_TARGET","elementId":75},{"time":97741,"attackerId":43,"type":"TOWER_NEW_TARGET","elementId":75},{"time":98000,"endsAt":109200,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":16},{"time":98000,"endsAt":102800,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":20},{"time":98000,"attackerId":16,"type":"TOWER_NEW_TARGET","elementId":74},{"time":98098,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":69},{"time":98098,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":69},{"time":98120,"type":"ATTACKER_DIED","elementId":16},{"time":98120,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":76},{"time":98120,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":77},{"time":98120,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":70},{"time":98120,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":73},{"time":98120,"attackerId":16,"type":"TOWER_LOST_TARGET","elementId":74},{"time":98121,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":70},{"time":98121,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":76},{"time":98121,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":77},{"time":98800,"endsAt":105200,"startingCoordinate":{"x":1000,"y":760},"endingCoordinate":{"x":680,"y":760},"type":"MOVETO","elementId":26},{"time":98860,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":73},{"time":99200,"endsAt":110400,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":17},{"time":99200,"endsAt":110400,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":35},{"time":99200,"endsAt":104000,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":21},{"time":99200,"attackerId":17,"type":"TOWER_NEW_TARGET","elementId":74},{"time":99300,"type":"ATTACKER_DIED","elementId":17},{"time":99300,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":70},{"time":99300,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":76},{"time":99300,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":77},{"time":99300,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":73},{"time":99300,"attackerId":17,"type":"TOWER_LOST_TARGET","elementId":74},{"time":99300,"attackerId":35,"type":"TOWER_NEW_TARGET","elementId":73},{"time":99300,"attackerId":35,"type":"TOWER_NEW_TARGET","elementId":74},{"time":99300,"attackerId":35,"type":"TOWER_NEW_TARGET","elementId":76},{"time":99300,"attackerId":35,"type":"TOWER_NEW_TARGET","elementId":77},{"time":99301,"attackerId":35,"type":"TOWER_NEW_TARGET","elementId":70},{"time":100098,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":69},{"time":100098,"attackerId":47,"type":"TOWER_NEW_TARGET","elementId":69},{"time":100400,"endsAt":111600,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":18},{"time":100400,"endsAt":105200,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":22},{"time":100700,"type":"ATTACKER_DIED","elementId":35},{"time":100700,"attackerId":35,"type":"TOWER_LOST_TARGET","elementId":73},{"time":100700,"attackerId":35,"type":"TOWER_LOST_TARGET","elementId":74},{"time":100700,"attackerId":35,"type":"TOWER_LOST_TARGET","elementId":76},{"time":100700,"attackerId":35,"type":"TOWER_LOST_TARGET","elementId":77},{"time":100700,"attackerId":35,"type":"TOWER_LOST_TARGET","elementId":70},{"time":100700,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":73},{"time":100700,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":74},{"time":100700,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":76},{"time":100700,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":77},{"time":100701,"attackerId":18,"type":"TOWER_NEW_TARGET","elementId":70},{"time":101440,"type":"ATTACKER_DIED","elementId":43},{"time":101440,"attackerId":43,"type":"TOWER_LOST_TARGET","elementId":75},{"time":101440,"type":"ATTACKER_DIED","elementId":18},{"time":101440,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":73},{"time":101440,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":74},{"time":101440,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":76},{"time":101440,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":77},{"time":101440,"attackerId":18,"type":"TOWER_LOST_TARGET","elementId":70},{"time":101440,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":77},{"time":101441,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":70},{"time":101441,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":73},{"time":101441,"attackerId":66,"type":"TOWER_NEW_TARGET","elementId":75},{"time":101441,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":76},{"time":101600,"endsAt":112800,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":19},{"time":101600,"endsAt":106400,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":23},{"time":101600,"attackerId":19,"type":"TOWER_NEW_TARGET","elementId":74},{"time":101700,"endsAt":112900,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":36},{"time":101960,"type":"ATTACKER_DIED","elementId":47},{"time":101960,"attackerId":47,"type":"TOWER_LOST_TARGET","elementId":69},{"time":101961,"attackerId":48,"type":"TOWER_NEW_TARGET","elementId":69},{"time":101998,"endsAt":108664,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":66},{"time":102600,"type":"ATTACKER_DIED","elementId":19},{"time":102600,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":77},{"time":102600,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":70},{"time":102600,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":73},{"time":102600,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":76},{"time":102600,"attackerId":19,"type":"TOWER_LOST_TARGET","elementId":74},{"time":102600,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":76},{"time":102600,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":77},{"time":102601,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":70},{"time":102601,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":73},{"time":102601,"attackerId":36,"type":"TOWER_NEW_TARGET","elementId":74},{"time":102800,"endsAt":114000,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":20},{"time":102800,"endsAt":107600,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":24},{"time":102998,"endsAt":109664,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":67},{"time":103998,"endsAt":110664,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":44},{"time":104000,"endsAt":115200,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":21},{"time":104000,"endsAt":108800,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":25},{"time":104000,"type":"ATTACKER_DIED","elementId":36},{"time":104000,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":76},{"time":104000,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":77},{"time":104000,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":70},{"time":104000,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":73},{"time":104000,"attackerId":36,"type":"TOWER_LOST_TARGET","elementId":74},{"time":104000,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":73},{"time":104000,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":74},{"time":104000,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":76},{"time":104000,"attackerId":66,"type":"TOWER_NEW_TARGET","elementId":77},{"time":104001,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":70},{"time":104060,"type":"ATTACKER_DIED","elementId":48},{"time":104060,"attackerId":48,"type":"TOWER_LOST_TARGET","elementId":69},{"time":105140,"attackerId":20,"type":"TOWER_NEW_TARGET","elementId":68},{"time":105200,"endsAt":116400,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":22},{"time":105200,"endsAt":110000,"startingCoordinate":{"x":680,"y":760},"endingCoordinate":{"x":680,"y":520},"type":"MOVETO","elementId":26},{"time":105300,"type":"ATTACKER_DIED","elementId":20},{"time":105300,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":73},{"time":105300,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":74},{"time":105300,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":76},{"time":105300,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":70},{"time":105300,"attackerId":20,"type":"TOWER_LOST_TARGET","elementId":68},{"time":105300,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":73},{"time":105300,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":74},{"time":105300,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":76},{"time":105301,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":70},{"time":105998,"endsAt":112664,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":45},{"time":106340,"attackerId":21,"type":"TOWER_NEW_TARGET","elementId":68},{"time":106400,"endsAt":117600,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":23},{"time":106500,"type":"ATTACKER_DIED","elementId":21},{"time":106500,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":73},{"time":106500,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":74},{"time":106500,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":76},{"time":106500,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":70},{"time":106500,"attackerId":21,"type":"TOWER_LOST_TARGET","elementId":68},{"time":106500,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":76},{"time":106501,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":70},{"time":106501,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":73},{"time":106501,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":74},{"time":107540,"attackerId":22,"type":"TOWER_NEW_TARGET","elementId":68},{"time":107600,"endsAt":118800,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":24},{"time":107740,"type":"ATTACKER_DIED","elementId":22},{"time":107740,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":76},{"time":107740,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":70},{"time":107740,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":73},{"time":107740,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":74},{"time":107740,"attackerId":22,"type":"TOWER_LOST_TARGET","elementId":68},{"time":107741,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":70},{"time":107741,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":73},{"time":107741,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":74},{"time":107741,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":76},{"time":107998,"endsAt":114664,"startingCoordinate":{"x":1200,"y":560},"endingCoordinate":{"x":1000,"y":560},"type":"MOVETO","elementId":46},{"time":108664,"endsAt":115330,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":66},{"time":108740,"attackerId":23,"type":"TOWER_NEW_TARGET","elementId":68},{"time":108800,"endsAt":120000,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":25},{"time":108940,"type":"ATTACKER_DIED","elementId":66},{"time":108940,"attackerId":66,"type":"TOWER_LOST_TARGET","elementId":75},{"time":108940,"attackerId":66,"type":"TOWER_LOST_TARGET","elementId":77},{"time":108940,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":77},{"time":108941,"attackerId":67,"type":"TOWER_NEW_TARGET","elementId":75},{"time":109000,"type":"ATTACKER_DIED","elementId":23},{"time":109000,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":70},{"time":109000,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":73},{"time":109000,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":74},{"time":109000,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":76},{"time":109000,"attackerId":23,"type":"TOWER_LOST_TARGET","elementId":68},{"time":109000,"attackerId":24,"type":"TOWER_NEW_TARGET","elementId":73},{"time":109000,"attackerId":24,"type":"TOWER_NEW_TARGET","elementId":74},{"time":109000,"attackerId":24,"type":"TOWER_NEW_TARGET","elementId":76},{"time":109001,"attackerId":24,"type":"TOWER_NEW_TARGET","elementId":70},{"time":109664,"endsAt":116330,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":67},{"time":109940,"attackerId":24,"type":"TOWER_NEW_TARGET","elementId":68},{"time":110000,"endsAt":121200,"startingCoordinate":{"x":680,"y":520},"endingCoordinate":{"x":120,"y":520},"type":"MOVETO","elementId":26},{"time":110260,"attackerId":24,"type":"TOWER_LOST_TARGET","elementId":76},{"time":110260,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":76},{"time":110560,"type":"ATTACKER_DIED","elementId":24},{"time":110560,"attackerId":24,"type":"TOWER_LOST_TARGET","elementId":73},{"time":110560,"attackerId":24,"type":"TOWER_LOST_TARGET","elementId":74},{"time":110560,"attackerId":24,"type":"TOWER_LOST_TARGET","elementId":70},{"time":110560,"attackerId":24,"type":"TOWER_LOST_TARGET","elementId":68},{"time":110560,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":74},{"time":110561,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":70},{"time":110561,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":73},{"time":110664,"endsAt":117330,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":44},{"time":111140,"attackerId":25,"type":"TOWER_NEW_TARGET","elementId":68},{"time":111240,"type":"ATTACKER_DIED","elementId":67},{"time":111240,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":77},{"time":111240,"attackerId":67,"type":"TOWER_LOST_TARGET","elementId":75},{"time":111240,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":77},{"time":111241,"attackerId":44,"type":"TOWER_NEW_TARGET","elementId":75},{"time":111460,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":76},{"time":111460,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":76},{"time":112060,"type":"ATTACKER_DIED","elementId":25},{"time":112060,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":74},{"time":112060,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":70},{"time":112060,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":73},{"time":112060,"attackerId":25,"type":"TOWER_LOST_TARGET","elementId":68},{"time":112060,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":74},{"time":112061,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":70},{"time":112061,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":73},{"time":112340,"attackerId":26,"type":"TOWER_NEW_TARGET","elementId":68},{"time":112660,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":76},{"time":112664,"endsAt":119330,"startingCoordinate":{"x":1000,"y":560},"endingCoordinate":{"x":1000,"y":760},"type":"MOVETO","elementId":45},{"time":113200,"type":"ATTACKER_DIED","elementId":26},{"time":113200,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":74},{"time":113200,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":70},{"time":113200,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":73},{"time":113200,"attackerId":26,"type":"TOWER_LOST_TARGET","elementId":68},{"time":113698,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":75},{"time":113698,"attackerId":45,"type":"TOWER_NEW_TARGET","elementId":75},{"time":113740,"type":"ATTACKER_DIED","elementId":45},{"time":113740,"attackerId":45,"type":"TOWER_LOST_TARGET","elementId":75},{"time":113741,"attackerId":46,"type":"TOWER_NEW_TARGET","elementId":75},{"time":113840,"type":"ATTACKER_DIED","elementId":46},{"time":113840,"attackerId":46,"type":"TOWER_LOST_TARGET","elementId":75},{"time":115220,"type":"ATTACKER_DIED","elementId":44},{"time":115220,"attackerId":44,"type":"TOWER_LOST_TARGET","elementId":77}]
+[
+    {
+        "time": 0,
+        "towerType": "PLASMA",
+        "x": 260,
+        "y": 620,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 7
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 1060,
+        "y": 180,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 8
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 580,
+        "y": 680,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 9
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 260,
+        "y": 820,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 10
+    },
+    {
+        "time": 0,
+        "towerType": "PLASMA",
+        "x": 520,
+        "y": 260,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 11
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 520,
+        "y": 400,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 12
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 1060,
+        "y": 460,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 13
+    },
+    {
+        "time": 0,
+        "towerType": "DISRUPTOR",
+        "x": 280,
+        "y": 180,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 14
+    },
+    {
+        "time": 0,
+        "towerType": "PLASMA",
+        "x": 780,
+        "y": 260,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 15
+    },
+    {
+        "time": 0,
+        "towerType": "PLASMA",
+        "x": 840,
+        "y": 540,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 16
+    },
+    {
+        "time": 0,
+        "towerType": "GATTLING",
+        "x": 640,
+        "y": 60,
+        "type": "DEFENDER_SPAWN",
+        "elementId": 17
+    },
+    {
+        "time": 1000,
+        "attackerType": "RUNNER",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 2
+    },
+    {
+        "time": 1000,
+        "endsAt": 2000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 50
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 2000,
+        "attackerType": "RUNNER",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 3
+    },
+    {
+        "time": 2000,
+        "attackerId": 2,
+        "effectWearsOffAt": 5000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 2000,
+        "endsAt": 2060,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 50
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 51
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 2000,
+        "endsAt": 7600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 2060,
+        "endsAt": 4000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 51
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 148
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 3000,
+        "attackerType": "RUNNER",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 4
+    },
+    {
+        "time": 3000,
+        "endsAt": 8600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 4000,
+        "attackerType": "RUNNER",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 5
+    },
+    {
+        "time": 4000,
+        "attackerId": 2,
+        "effectWearsOffAt": 7000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 4000,
+        "endsAt": 4060,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 148
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 149
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 4000,
+        "endsAt": 9600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 4060,
+        "endsAt": 6000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 149
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 246
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 5000,
+        "attackerType": "RUNNER",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 6
+    },
+    {
+        "time": 5000,
+        "endsAt": 10600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 6000,
+        "attackerId": 2,
+        "effectWearsOffAt": 9000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 6000,
+        "endsAt": 6060,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 246
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 247
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 6060,
+        "endsAt": 6720,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 247
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 6720,
+        "endsAt": 8000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 224,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 7540,
+        "attackerId": 2,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 7600,
+        "endsAt": 12400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 8000,
+        "attackerId": 2,
+        "effectWearsOffAt": 11000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 8000,
+        "endsAt": 8060,
+        "startingCoordinate": {
+            "x": 224,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 225,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 8060,
+        "endsAt": 10000,
+        "startingCoordinate": {
+            "x": 225,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 322,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 8600,
+        "endsAt": 13400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 9600,
+        "endsAt": 14400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 10000,
+        "attackerId": 2,
+        "effectWearsOffAt": 13000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 10000,
+        "endsAt": 10060,
+        "startingCoordinate": {
+            "x": 322,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 323,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 10060,
+        "endsAt": 11600,
+        "startingCoordinate": {
+            "x": 323,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 10600,
+        "endsAt": 15400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 10800,
+        "attackerId": 2,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 11600,
+        "endsAt": 12000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 260
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 12000,
+        "attackerId": 2,
+        "effectWearsOffAt": 15000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 12000,
+        "endsAt": 12060,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 260
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 259
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 12400,
+        "endsAt": 14000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 200
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 12460,
+        "attackerId": 2,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 12460,
+        "attackerId": 3,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 13220,
+        "attackerId": 3,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 13220,
+        "attackerId": 4,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 13400,
+        "endsAt": 15800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 13840,
+        "type": "ATTACKER_DIED",
+        "elementId": 2
+    },
+    {
+        "time": 13840,
+        "attackerId": 2,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 13841,
+        "attackerId": 3,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 14000,
+        "attackerId": 3,
+        "effectWearsOffAt": 17000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 14000,
+        "endsAt": 14060,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 200
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 199
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 14060,
+        "endsAt": 14840,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 199
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 14220,
+        "attackerId": 4,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 14220,
+        "attackerId": 5,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 14400,
+        "endsAt": 16800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 14840,
+        "endsAt": 16000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 458,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 15220,
+        "attackerId": 5,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 15220,
+        "attackerId": 6,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 15400,
+        "endsAt": 17800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 15800,
+        "endsAt": 18000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 510,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 16000,
+        "attackerId": 3,
+        "effectWearsOffAt": 19000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 16000,
+        "endsAt": 16060,
+        "startingCoordinate": {
+            "x": 458,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 459,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 16220,
+        "attackerId": 6,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 12
+    },
+    {
+        "time": 16220,
+        "attackerId": 3,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 16420,
+        "attackerId": 3,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 16800,
+        "endsAt": 20000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 560,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 17740,
+        "type": "ATTACKER_DIED",
+        "elementId": 3
+    },
+    {
+        "time": 17740,
+        "attackerId": 3,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 17740,
+        "attackerId": 3,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 17740,
+        "attackerId": 3,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 17740,
+        "attackerId": 4,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 17740,
+        "attackerId": 4,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 17741,
+        "attackerId": 4,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 17800,
+        "endsAt": 22600,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 18000,
+        "attackerId": 4,
+        "effectWearsOffAt": 21000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 18000,
+        "endsAt": 18060,
+        "startingCoordinate": {
+            "x": 510,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 511,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 19820,
+        "type": "ATTACKER_DIED",
+        "elementId": 4
+    },
+    {
+        "time": 19820,
+        "attackerId": 4,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 19820,
+        "attackerId": 4,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 19820,
+        "attackerId": 4,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 19821,
+        "attackerId": 5,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 19821,
+        "attackerId": 5,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 19821,
+        "attackerId": 5,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 20000,
+        "attackerId": 5,
+        "effectWearsOffAt": 23000,
+        "type": "TOWER_EFFECTS_TARGET",
+        "elementId": 14
+    },
+    {
+        "time": 20000,
+        "endsAt": 20060,
+        "startingCoordinate": {
+            "x": 560,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 561,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 20060,
+        "endsAt": 21640,
+        "startingCoordinate": {
+            "x": 561,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 21820,
+        "type": "ATTACKER_DIED",
+        "elementId": 5
+    },
+    {
+        "time": 21820,
+        "attackerId": 5,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 21820,
+        "attackerId": 5,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 21820,
+        "attackerId": 5,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 21820,
+        "attackerId": 6,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 21821,
+        "attackerId": 6,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 21821,
+        "attackerId": 6,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 15
+    },
+    {
+        "time": 23820,
+        "type": "ATTACKER_DIED",
+        "elementId": 6
+    },
+    {
+        "time": 23820,
+        "attackerId": 6,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 17
+    },
+    {
+        "time": 23820,
+        "attackerId": 6,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 11
+    },
+    {
+        "time": 23820,
+        "attackerId": 6,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 15
+    }
+]

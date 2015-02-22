@@ -28,6 +28,8 @@ function EventController() {
                     tower = new Flamer({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
                 } else if(event.towerType == 'GATTLING'){
                     tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:200 });
+                }else if(event.towerType == 'DISRUPTOR'){
+                    tower = new Disruptor({ x: event.x, y: event.y, id: event.elementId, timeToReload:2000 });
                 }
 
                 this.objectLayer.add(tower);
