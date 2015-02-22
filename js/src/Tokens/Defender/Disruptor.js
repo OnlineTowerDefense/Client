@@ -21,7 +21,7 @@ Disruptor.prototype = {
 
         this.on('tick',function(data){
 
-            var angle = (data.time / 5) % 360;
+            var angle = (data.time / 10) % 360;
 
             this.rotation(angle);
 
