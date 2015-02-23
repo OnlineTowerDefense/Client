@@ -54,8 +54,6 @@ Disruptor.prototype = {
             var tween = new Konva.Tween({
                 node: warp,
                 duration: 1,
-                //scaleX:0.8,
-                //scaleY:0.8,
                 x: targetObj.getX(),
                 y: targetObj.getY(),
                 onFinish: function() {

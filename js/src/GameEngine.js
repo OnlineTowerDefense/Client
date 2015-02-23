@@ -27,7 +27,32 @@ function Game(events, fight, dungeonBlueprint, stageId, baseUrl) {
         var stage = new Konva.Stage({
             container: self.stageId,
             width: width,
-            height: height
+            height: height,
+            draggable: true,
+            dragBoundFunc: function(pos) {
+
+
+                var containerHeight = $('#game').height();
+                var containerWidth = $('#game').width();
+
+                var x = pos.x;
+                var y = pos.y;
+
+                if( x > 0){
+                    x = 0;
+                }
+                if( y > 0){
+                    y = 0;
+                }
+                if( y < (containerHeight - stage.height())){
+                    y = containerHeight - stage.height();
+                }
+                if( x < (containerWidth - stage.width())){
+                    x = containerWidth - stage.width();
+                }
+
+                return { x: x, y: y };
+            }
         });
 
         backgrounds.add(
