@@ -8,11 +8,12 @@ var config = {
         {src: 'img/tower/PLASMA.png', id: 'towerFlamer'},
         {src: 'img/tower/GATTLING.png', id: 'towerGattling'},
         {src: 'img/tower/DISRUPTOR.png', id: 'towerDisruptor'},
+        {src: 'img/tower/ROCKETLAUNCHER.png', id: 'towerRocket'},
         {src: 'img/tower/Fire.png', id: 'bulletFire'},
         {src: 'img/tower/Bullet.png', id: 'bulletBullet'},
         {src: 'img/tower/Warp.png', id: 'bulletWarp'},
+        {src: 'img/tower/Rocket.png', id: 'bulletRocket'},
         {src: 'img/dungeons/SNAIL.jpg', id: 'SNAIL'},
         {src: 'img/dungeons/LET_ME_OUT.jpg', id: 'LET_ME_OUT'}
-
     ]
 };

@@ -30,6 +30,8 @@ function EventController() {
                     tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:200 });
                 }else if(event.towerType == 'DISRUPTOR'){
                     tower = new Disruptor({ x: event.x, y: event.y, id: event.elementId, timeToReload:2000 });
+                }else if(event.towerType == 'ROCKETLAUNCHER'){
+                    tower = new RocketLauncher({ x: event.x, y: event.y, id: event.elementId, timeToReload:2000 });
                 }
 
                 this.objectLayer.add(tower);
