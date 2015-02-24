@@ -31,7 +31,7 @@ Unit.prototype = {
 
             var duration = (event.endsAt - event.time)/1000;
 
-            this.lookAt(event.endingCoordinate.y,event.endingCoordinate.x);
+            this.lookAt(event.endingCoordinate.y + this.walkModifier,event.endingCoordinate.x + this.walkModifier);
 
             this.tween = new Konva.Tween({
                 node: this,
@@ -57,6 +57,7 @@ Unit.prototype = {
                 image:Konva.Assets[this.tokenType+'_CORPSE'],
                 offset:{x:13, y:12}
             });
+            corpse.rotation(this.rotation());
             this.getStage().findOne('#backgrounds').add(corpse);
             this.destroy();
         });

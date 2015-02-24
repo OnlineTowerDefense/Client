@@ -30,8 +30,6 @@ function Game(events, fight, dungeonBlueprint, stageId, baseUrl) {
             height: height,
             draggable: true,
             dragBoundFunc: function(pos) {
-
-
                 var containerHeight = $('#game').height();
                 var containerWidth = $('#game').width();
 

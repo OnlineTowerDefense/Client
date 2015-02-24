@@ -25,13 +25,13 @@ function EventController() {
                     });
 
                 if(event.towerType == 'PLASMA'){
-                    tower = new Flamer({ x: event.x, y: event.y, id: event.elementId, timeToReload:500 });
+                    tower = new Flamer({ x: event.x, y: event.y, id: event.elementId, timeToReload:800 });
                 } else if(event.towerType == 'GATTLING'){
-                    tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:200 });
+                    tower = new Gattling({ x: event.x, y: event.y, id: event.elementId, timeToReload:150 });
                 }else if(event.towerType == 'DISRUPTOR'){
-                    tower = new Disruptor({ x: event.x, y: event.y, id: event.elementId, timeToReload:2000 });
+                    tower = new Disruptor({ x: event.x, y: event.y, id: event.elementId, timeToReload:1500 });
                 }else if(event.towerType == 'ROCKETLAUNCHER'){
-                    tower = new RocketLauncher({ x: event.x, y: event.y, id: event.elementId, timeToReload:2000 });
+                    tower = new RocketLauncher({ x: event.x, y: event.y, id: event.elementId, timeToReload:3000 });
                 }
 
                 this.objectLayer.add(tower);

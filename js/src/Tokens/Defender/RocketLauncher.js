@@ -25,7 +25,7 @@ RocketLauncher.prototype = {
 
             if(this.lastShot + this.timeToReload < data.time ){
 
-                if(this.target === undefined || this.target == null){
+                if(this.target === undefined || this.target == null || this.target.getParent() == undefined){
                     return;
                 }
 

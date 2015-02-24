@@ -13,7 +13,7 @@ GunCar.prototype = {
             height: 33,
             unitWidth: 33,
             offset:{x:33,y:17},
-            tokenType:'GunCar'
+            tokenType:'GUNCAR'
         };
         Unit.call(this, baseConfig);
         this.className = 'GunCar';
