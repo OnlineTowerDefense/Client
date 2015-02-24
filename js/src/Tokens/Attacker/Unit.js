@@ -12,9 +12,13 @@ Unit.prototype = {
         this.setOffset({x:this.getWidth()/2,y:this.getHeight()/2});
         this.tokenType = config.tokenType;
 
+
         this.tween = null;
 
-        this.walkoffset = Math.floor( ( Math.random() * 41 )) - 20;
+        var pathWidth = 80 - config.unitWidth + 1;
+        this.walkModifier = Math.floor( ( Math.random() * pathWidth )) - Math.floor(pathWidth/2);
+        this.y(this.y()+this.walkModifier);
+        this.x(this.x()+this.walkModifier);
 
         this.on('MOVETO', function(event){
 
@@ -29,14 +33,11 @@ Unit.prototype = {
 
             this.lookAt(event.endingCoordinate.y,event.endingCoordinate.x);
 
-            var modX = this.getDirectionModifierX(this.getX(), this.getY(), event.endingCoordinate.x, event.endingCoordinate.y);
-            var modY = this.getDirectionModifierY(this.getX(), this.getY(), event.endingCoordinate.x, event.endingCoordinate.y);
-
             this.tween = new Konva.Tween({
                 node: this,
                 duration: duration,
-                x: event.endingCoordinate.x + modX,
-                y: event.endingCoordinate.y + modY
+                x: event.endingCoordinate.x + this.walkModifier,
+                y: event.endingCoordinate.y + this.walkModifier
             });
 
             this.tween.play();
@@ -54,50 +55,13 @@ Unit.prototype = {
                 x: this.getX(),
                 y: this.getY(),
                 image:Konva.Assets[this.tokenType+'_CORPSE'],
-                width: 40,
-                height: 40,
-                offset:{x:20, y:20}
+                offset:{x:13, y:12}
             });
             this.getStage().findOne('#backgrounds').add(corpse);
             this.destroy();
         });
 
     },
-
-    getDirectionModifierX: function(fromX, fromY, toX, toY){
-
-        var newDirection = Direction.getDirection(fromX, fromY, toX, toY);
-
-        if( newDirection == Direction.SOUTH ){
-            return 0;
-        }else if ( newDirection == Direction.EAST ){
-            return this.walkoffset;
-        }else if ( newDirection == Direction.NORTH ){
-            return 0;
-        }else if ( newDirection == Direction.WEST ){
-            return - this.walkoffset;
-        }else {  // Direction.UNDEFINED
-            return 0;
-        }
-    },
-    getDirectionModifierY: function(fromX, fromY, toX, toY){
-
-        var newDirection = Direction.getDirection(fromX, fromY, toX, toY);
-
-        if( newDirection == Direction.SOUTH ){
-            return this.walkoffset;
-        }else if ( newDirection == Direction.EAST ){
-            return 0;
-        }else if ( newDirection == Direction.NORTH ){
-            return - this.walkoffset;
-        }else if ( newDirection == Direction.WEST ){
-            return 0;
-        }else {  // Direction.UNDEFINED
-            return 0;
-        }
-    },
-
-
     calculateAngleTo: function(targetId){
         var target = this.getStage().find('#'+targetId);
         if(!target){

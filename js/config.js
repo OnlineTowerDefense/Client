@@ -1,9 +1,13 @@
 var config = {
     assets: [
-        {src: 'img/attacker/GRUNT_EAST_NORMAL.png', id: 'grunt'},
-        {src: 'img/attacker/RUNNER_EAST_NORMAL.png', id: 'runner'},
+        {src: 'img/attacker/GRUNT_EAST_NORMAL.png', id: 'GRUNT'},
+        {src: 'img/attacker/RUNNER_EAST_NORMAL.png', id: 'RUNNER'},
+        {src: 'img/attacker/BOT.png', id: 'BOT'},
+        {src: 'img/attacker/GUNCAR.png', id: 'GUNCAR'},
         {src: 'img/attacker/GRUNT_DESTROYED.png', id: 'GRUNT_CORPSE'},
         {src: 'img/attacker/RUNNER_DESTROYED.png', id: 'RUNNER_CORPSE'},
+        {src: 'img/attacker/BOT_DESTROYED.png', id: 'BOT_CORPSE'},
+        {src: 'img/attacker/GUNCAR_DESTROYED.png', id: 'GUNCAR_CORPSE'},
         {src: 'img/tower/TOWER_BASE.png', id: 'towerBase'},
         {src: 'img/tower/PLASMA.png', id: 'towerFlamer'},
         {src: 'img/tower/GATTLING.png', id: 'towerGattling'},

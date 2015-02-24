@@ -49,6 +49,7 @@ RocketLauncher.prototype = {
                     x: this.getX()+gunfireDetalX,
                     y: this.getY()+gunfireDetalY,
                     image:Konva.Assets.bulletRocket,
+                    scale:{x:0.7, y:0.7},
                     offset:{x:10, y:0}
                 });
                 rocket.rotation(angle+90);

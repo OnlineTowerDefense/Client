@@ -43,13 +43,10 @@ function EventController() {
                     return false;
                 }
                 var unit = null;
-                if(event.attackerType == 'GRUNT'){
-                    unit = new Grunt({x: event.x, y: event.y, id: event.elementId});
-
-                }
-                if(event.attackerType == 'RUNNER'){
-                    unit = new Runner({x: event.x, y: event.y, id: event.elementId});
-                }
+                if(event.attackerType == 'GRUNT'){ unit = new Grunt({x: event.x, y: event.y, id: event.elementId});}
+                else if(event.attackerType == 'RUNNER'){ unit = new Runner({x: event.x, y: event.y, id: event.elementId}); }
+                else if(event.attackerType == 'BOT'){ unit = new Bot({x: event.x, y: event.y, id: event.elementId}); }
+                else if(event.attackerType == 'GUNCAR'){ unit = new GunCar({x: event.x, y: event.y, id: event.elementId}); }
 
                 this.objectLayer.add(unit);
             }else{

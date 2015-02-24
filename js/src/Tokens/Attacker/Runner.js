@@ -8,10 +8,11 @@ Runner.prototype = {
             y: config.y,
             id: config.id,
             name:'object',
-            image:Konva.Assets.runner,
-            width: 40,
-            height: 40,
-            offset:{x:20,y:20},
+            image:Konva.Assets.RUNNER,
+            width: 25,
+            height: 25,
+            unitWidth: 25,
+            offset:{x:12,y:12},
             tokenType:'RUNNER'
         };
         Unit.call(this, baseConfig);

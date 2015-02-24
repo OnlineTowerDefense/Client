@@ -5,25 +5,25 @@
         "x": 280,
         "y": 180,
         "type": "DEFENDER_SPAWN",
-        "elementId": 8
+        "elementId": 18
     },
     {
         "time": 1000,
-        "attackerType": "RUNNER",
+        "attackerType": "GUNCAR",
         "x": 160,
         "y": 0,
         "type": "ATTACKER_SPAWN",
-        "elementId": 2
+        "elementId": 12
     },
     {
         "time": 1000,
-        "attackerId": 2,
+        "attackerId": 12,
         "type": "TOWER_NEW_TARGET",
-        "elementId": 8
+        "elementId": 18
     },
     {
         "time": 1000,
-        "endsAt": 6600,
+        "endsAt": 15000,
         "startingCoordinate": {
             "x": 160,
             "y": 0
@@ -33,19 +33,19 @@
             "y": 280
         },
         "type": "MOVETO",
-        "elementId": 2
+        "elementId": 12
     },
     {
         "time": 2000,
-        "attackerType": "RUNNER",
+        "attackerType": "GUNCAR",
         "x": 160,
         "y": 0,
         "type": "ATTACKER_SPAWN",
-        "elementId": 3
+        "elementId": 13
     },
     {
         "time": 2000,
-        "endsAt": 7600,
+        "endsAt": 16000,
         "startingCoordinate": {
             "x": 160,
             "y": 0
@@ -55,19 +55,151 @@
             "y": 280
         },
         "type": "MOVETO",
-        "elementId": 3
+        "elementId": 13
     },
     {
         "time": 3000,
-        "attackerType": "RUNNER",
+        "attackerType": "GUNCAR",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 14
+    },
+    {
+        "time": 3000,
+        "endsAt": 17000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 4000,
+        "attackerType": "GUNCAR",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 15
+    },
+    {
+        "time": 4000,
+        "endsAt": 18000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 5000,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 2
+    },
+    {
+        "time": 5000,
+        "attackerType": "GUNCAR",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 16
+    },
+    {
+        "time": 5000,
+        "endsAt": 19000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 5000,
+        "endsAt": 19000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 6000,
+        "attackerType": "GUNCAR",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 17
+    },
+    {
+        "time": 6000,
+        "endsAt": 20000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 6200,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 3
+    },
+    {
+        "time": 6200,
+        "endsAt": 20200,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 7400,
+        "attackerType": "BOT",
         "x": 160,
         "y": 0,
         "type": "ATTACKER_SPAWN",
         "elementId": 4
     },
     {
-        "time": 3000,
-        "endsAt": 8600,
+        "time": 7400,
+        "endsAt": 21400,
         "startingCoordinate": {
             "x": 160,
             "y": 0
@@ -78,222 +210,500 @@
         },
         "type": "MOVETO",
         "elementId": 4
-    },
-    {
-        "time": 4000,
-        "attackerType": "RUNNER",
-        "x": 160,
-        "y": 0,
-        "type": "ATTACKER_SPAWN",
-        "elementId": 5
-    },
-    {
-        "time": 4000,
-        "endsAt": 9600,
-        "startingCoordinate": {
-            "x": 160,
-            "y": 0
-        },
-        "endingCoordinate": {
-            "x": 160,
-            "y": 280
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 5000,
-        "attackerType": "RUNNER",
-        "x": 160,
-        "y": 0,
-        "type": "ATTACKER_SPAWN",
-        "elementId": 6
-    },
-    {
-        "time": 5000,
-        "endsAt": 10600,
-        "startingCoordinate": {
-            "x": 160,
-            "y": 0
-        },
-        "endingCoordinate": {
-            "x": 160,
-            "y": 280
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 6000,
-        "attackerType": "RUNNER",
-        "x": 160,
-        "y": 0,
-        "type": "ATTACKER_SPAWN",
-        "elementId": 7
-    },
-    {
-        "time": 6000,
-        "type": "ATTACKER_DIED",
-        "elementId": 2
-    },
-    {
-        "time": 6000,
-        "attackerId": 2,
-        "type": "TOWER_LOST_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 6000,
-        "endsAt": 11600,
-        "startingCoordinate": {
-            "x": 160,
-            "y": 0
-        },
-        "endingCoordinate": {
-            "x": 160,
-            "y": 280
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 6001,
-        "attackerId": 3,
-        "type": "TOWER_NEW_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 7600,
-        "endsAt": 12400,
-        "startingCoordinate": {
-            "x": 160,
-            "y": 280
-        },
-        "endingCoordinate": {
-            "x": 400,
-            "y": 280
-        },
-        "type": "MOVETO",
-        "elementId": 3
     },
     {
         "time": 8600,
-        "endsAt": 13400,
-        "startingCoordinate": {
-            "x": 160,
-            "y": 280
-        },
-        "endingCoordinate": {
-            "x": 400,
-            "y": 280
-        },
-        "type": "MOVETO",
-        "elementId": 4
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 5
     },
     {
-        "time": 9600,
-        "endsAt": 14400,
+        "time": 8600,
+        "endsAt": 22600,
         "startingCoordinate": {
             "x": 160,
-            "y": 280
+            "y": 0
         },
         "endingCoordinate": {
-            "x": 400,
+            "x": 160,
             "y": 280
         },
         "type": "MOVETO",
         "elementId": 5
     },
     {
-        "time": 10600,
-        "endsAt": 15400,
+        "time": 9800,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 6
+    },
+    {
+        "time": 9800,
+        "endsAt": 23800,
         "startingCoordinate": {
             "x": 160,
-            "y": 280
+            "y": 0
         },
         "endingCoordinate": {
-            "x": 400,
+            "x": 160,
             "y": 280
         },
         "type": "MOVETO",
         "elementId": 6
     },
     {
-        "time": 11600,
-        "endsAt": 16400,
+        "time": 11000,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 7
+    },
+    {
+        "time": 11000,
+        "endsAt": 25000,
         "startingCoordinate": {
             "x": 160,
-            "y": 280
+            "y": 0
         },
         "endingCoordinate": {
-            "x": 400,
+            "x": 160,
             "y": 280
         },
         "type": "MOVETO",
         "elementId": 7
     },
     {
-        "time": 12000,
-        "type": "ATTACKER_DIED",
-        "elementId": 3
-    },
-    {
-        "time": 12000,
-        "attackerId": 3,
-        "type": "TOWER_LOST_TARGET",
+        "time": 12200,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
         "elementId": 8
     },
     {
-        "time": 12001,
-        "attackerId": 4,
-        "type": "TOWER_NEW_TARGET",
+        "time": 12200,
+        "endsAt": 26200,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
         "elementId": 8
     },
     {
         "time": 13400,
-        "endsAt": 15800,
-        "startingCoordinate": {
-            "x": 400,
-            "y": 280
-        },
-        "endingCoordinate": {
-            "x": 400,
-            "y": 160
-        },
-        "type": "MOVETO",
-        "elementId": 4
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 9
     },
     {
-        "time": 14400,
-        "endsAt": 16800,
+        "time": 13400,
+        "endsAt": 27400,
         "startingCoordinate": {
-            "x": 400,
-            "y": 280
+            "x": 160,
+            "y": 0
         },
         "endingCoordinate": {
-            "x": 400,
-            "y": 160
+            "x": 160,
+            "y": 280
         },
         "type": "MOVETO",
-        "elementId": 5
+        "elementId": 9
     },
     {
-        "time": 15400,
-        "endsAt": 17800,
+        "time": 14600,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 10
+    },
+    {
+        "time": 14600,
+        "endsAt": 28600,
         "startingCoordinate": {
-            "x": 400,
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 15000,
+        "endsAt": 27000,
+        "startingCoordinate": {
+            "x": 160,
             "y": 280
         },
         "endingCoordinate": {
             "x": 400,
-            "y": 160
+            "y": 280
         },
         "type": "MOVETO",
-        "elementId": 6
+        "elementId": 12
     },
     {
         "time": 15800,
-        "endsAt": 20600,
+        "attackerType": "BOT",
+        "x": 160,
+        "y": 0,
+        "type": "ATTACKER_SPAWN",
+        "elementId": 11
+    },
+    {
+        "time": 15800,
+        "endsAt": 29800,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 0
+        },
+        "endingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 16000,
+        "endsAt": 28000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 17000,
+        "endsAt": 29000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 18000,
+        "endsAt": 30000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 19000,
+        "endsAt": 31000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 19000,
+        "endsAt": 31000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 20000,
+        "endsAt": 32000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 20200,
+        "endsAt": 32200,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 21400,
+        "endsAt": 33400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 22600,
+        "endsAt": 34600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 23800,
+        "endsAt": 35800,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 25000,
+        "endsAt": 37000,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 26200,
+        "endsAt": 38200,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 27000,
+        "endsAt": 33000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 27400,
+        "endsAt": 39400,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 28000,
+        "endsAt": 34000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 28600,
+        "endsAt": 40600,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 29000,
+        "endsAt": 35000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 29800,
+        "endsAt": 41800,
+        "startingCoordinate": {
+            "x": 160,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 30000,
+        "endsAt": 36000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 31000,
+        "endsAt": 37000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 31000,
+        "endsAt": 37000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 32000,
+        "endsAt": 38000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 32200,
+        "endsAt": 38200,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 33000,
+        "endsAt": 45000,
         "startingCoordinate": {
             "x": 400,
             "y": 160
@@ -303,11 +713,123 @@
             "y": 160
         },
         "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 33400,
+        "endsAt": 39400,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
         "elementId": 4
     },
     {
-        "time": 16400,
-        "endsAt": 18800,
+        "time": 34000,
+        "endsAt": 46000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 34600,
+        "endsAt": 40600,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 35000,
+        "endsAt": 47000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 35800,
+        "endsAt": 41800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 36000,
+        "endsAt": 48000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 37000,
+        "endsAt": 49000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 37000,
+        "endsAt": 49000,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 37000,
+        "endsAt": 43000,
         "startingCoordinate": {
             "x": 400,
             "y": 280
@@ -320,8 +842,8 @@
         "elementId": 7
     },
     {
-        "time": 16800,
-        "endsAt": 21600,
+        "time": 38000,
+        "endsAt": 50000,
         "startingCoordinate": {
             "x": 400,
             "y": 160
@@ -331,11 +853,11 @@
             "y": 160
         },
         "type": "MOVETO",
-        "elementId": 5
+        "elementId": 17
     },
     {
-        "time": 17800,
-        "endsAt": 22600,
+        "time": 38200,
+        "endsAt": 50200,
         "startingCoordinate": {
             "x": 400,
             "y": 160
@@ -345,28 +867,157 @@
             "y": 160
         },
         "type": "MOVETO",
-        "elementId": 6
+        "elementId": 3
     },
     {
-        "time": 18000,
-        "type": "ATTACKER_DIED",
+        "time": 38200,
+        "endsAt": 44200,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 39400,
+        "endsAt": 51400,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
         "elementId": 4
     },
     {
-        "time": 18000,
-        "attackerId": 4,
+        "time": 39400,
+        "endsAt": 45400,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 39500,
+        "attackerId": 12,
         "type": "TOWER_LOST_TARGET",
-        "elementId": 8
+        "elementId": 18
     },
     {
-        "time": 18001,
-        "attackerId": 5,
+        "time": 39500,
+        "attackerId": 13,
         "type": "TOWER_NEW_TARGET",
-        "elementId": 8
+        "elementId": 18
     },
     {
-        "time": 18800,
-        "endsAt": 23600,
+        "time": 40500,
+        "attackerId": 13,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 40500,
+        "attackerId": 14,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 40600,
+        "endsAt": 52600,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 40600,
+        "endsAt": 46600,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 41500,
+        "attackerId": 14,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 41500,
+        "attackerId": 15,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 41800,
+        "endsAt": 53800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 41800,
+        "endsAt": 47800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 280
+        },
+        "endingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 42500,
+        "attackerId": 15,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 42500,
+        "attackerId": 2,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 43000,
+        "endsAt": 55000,
         "startingCoordinate": {
             "x": 400,
             "y": 160
@@ -379,318 +1030,1702 @@
         "elementId": 7
     },
     {
-        "time": 19400,
+        "time": 43500,
+        "attackerId": 2,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 43500,
+        "attackerId": 17,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 44200,
+        "endsAt": 56200,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 44500,
+        "attackerId": 17,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 44500,
+        "attackerId": 3,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 44700,
+        "attackerId": 3,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 44700,
+        "attackerId": 4,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 45000,
+        "endsAt": 55000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 45400,
+        "endsAt": 57400,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 45900,
+        "attackerId": 4,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 45900,
         "attackerId": 5,
-        "type": "TOWER_LOST_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 19400,
-        "attackerId": 6,
         "type": "TOWER_NEW_TARGET",
-        "elementId": 8
+        "elementId": 18
     },
     {
-        "time": 20400,
-        "attackerId": 6,
-        "type": "TOWER_LOST_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 20400,
-        "attackerId": 7,
-        "type": "TOWER_NEW_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 21400,
-        "attackerId": 7,
-        "type": "TOWER_LOST_TARGET",
-        "elementId": 8
-    },
-    {
-        "time": 21600,
-        "endsAt": 25600,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 160
-        },
-        "endingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 22600,
-        "endsAt": 26600,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 160
-        },
-        "endingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 23600,
-        "endsAt": 27600,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 160
-        },
-        "endingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 25600,
-        "endsAt": 31200,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 26600,
-        "endsAt": 32200,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 27600,
-        "endsAt": 33200,
-        "startingCoordinate": {
-            "x": 640,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 31200,
-        "endsAt": 36800,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 32200,
-        "endsAt": 37800,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 33200,
-        "endsAt": 38800,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 360
-        },
-        "endingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 36800,
-        "endsAt": 42400,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 37800,
-        "endsAt": 43400,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 38800,
-        "endsAt": 44400,
-        "startingCoordinate": {
-            "x": 920,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 42400,
-        "endsAt": 52000,
-        "startingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 560
-        },
-        "type": "MOVETO",
-        "elementId": 5
-    },
-    {
-        "time": 43400,
-        "endsAt": 53000,
-        "startingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 560
-        },
-        "type": "MOVETO",
-        "elementId": 6
-    },
-    {
-        "time": 44400,
-        "endsAt": 54000,
-        "startingCoordinate": {
-            "x": 1200,
-            "y": 80
-        },
-        "endingCoordinate": {
-            "x": 1200,
-            "y": 560
-        },
-        "type": "MOVETO",
-        "elementId": 7
-    },
-    {
-        "time": 52000,
+        "time": 46000,
         "endsAt": 56000,
         "startingCoordinate": {
-            "x": 1200,
-            "y": 560
+            "x": 640,
+            "y": 160
         },
         "endingCoordinate": {
-            "x": 1000,
-            "y": 560
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 46600,
+        "endsAt": 58600,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 47000,
+        "endsAt": 57000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 47100,
+        "attackerId": 5,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 47100,
+        "attackerId": 6,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 47800,
+        "endsAt": 59800,
+        "startingCoordinate": {
+            "x": 400,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 48000,
+        "endsAt": 58000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 48300,
+        "attackerId": 6,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 48300,
+        "attackerId": 7,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 49000,
+        "endsAt": 59000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 49000,
+        "endsAt": 59000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 49500,
+        "attackerId": 7,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 49500,
+        "attackerId": 8,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 50000,
+        "endsAt": 60000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 50200,
+        "endsAt": 60200,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 50700,
+        "attackerId": 8,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 50700,
+        "attackerId": 9,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 51400,
+        "endsAt": 61400,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 51900,
+        "attackerId": 9,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 51900,
+        "attackerId": 10,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 52600,
+        "endsAt": 62600,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
         },
         "type": "MOVETO",
         "elementId": 5
     },
     {
-        "time": 53000,
-        "endsAt": 57000,
+        "time": 53100,
+        "attackerId": 10,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 53100,
+        "attackerId": 11,
+        "type": "TOWER_NEW_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 53800,
+        "endsAt": 63800,
         "startingCoordinate": {
-            "x": 1200,
-            "y": 560
+            "x": 640,
+            "y": 160
         },
         "endingCoordinate": {
-            "x": 1000,
-            "y": 560
+            "x": 640,
+            "y": 360
         },
         "type": "MOVETO",
         "elementId": 6
     },
     {
-        "time": 54000,
-        "endsAt": 58000,
+        "time": 54300,
+        "attackerId": 11,
+        "type": "TOWER_LOST_TARGET",
+        "elementId": 18
+    },
+    {
+        "time": 55000,
+        "endsAt": 69000,
         "startingCoordinate": {
-            "x": 1200,
-            "y": 560
+            "x": 640,
+            "y": 360
         },
         "endingCoordinate": {
-            "x": 1000,
-            "y": 560
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 55000,
+        "endsAt": 65000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
         },
         "type": "MOVETO",
         "elementId": 7
     },
     {
         "time": 56000,
-        "endsAt": 60000,
+        "endsAt": 70000,
         "startingCoordinate": {
-            "x": 1000,
-            "y": 560
+            "x": 640,
+            "y": 360
         },
         "endingCoordinate": {
-            "x": 1000,
-            "y": 760
+            "x": 920,
+            "y": 360
         },
         "type": "MOVETO",
-        "elementId": 5
+        "elementId": 13
+    },
+    {
+        "time": 56200,
+        "endsAt": 66200,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 8
     },
     {
         "time": 57000,
-        "endsAt": 61000,
+        "endsAt": 71000,
         "startingCoordinate": {
-            "x": 1000,
-            "y": 560
+            "x": 640,
+            "y": 360
         },
         "endingCoordinate": {
-            "x": 1000,
-            "y": 760
+            "x": 920,
+            "y": 360
         },
         "type": "MOVETO",
-        "elementId": 6
+        "elementId": 14
+    },
+    {
+        "time": 57400,
+        "endsAt": 67400,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 9
     },
     {
         "time": 58000,
-        "endsAt": 62000,
+        "endsAt": 72000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 58600,
+        "endsAt": 68600,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 59000,
+        "endsAt": 73000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 59000,
+        "endsAt": 73000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 59800,
+        "endsAt": 69800,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 160
+        },
+        "endingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 60000,
+        "endsAt": 74000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 60200,
+        "endsAt": 74200,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 61400,
+        "endsAt": 75400,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 62600,
+        "endsAt": 76600,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 63800,
+        "endsAt": 77800,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 65000,
+        "endsAt": 79000,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 66200,
+        "endsAt": 80200,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 67400,
+        "endsAt": 81400,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 68600,
+        "endsAt": 82600,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 69000,
+        "endsAt": 83000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 69800,
+        "endsAt": 83800,
+        "startingCoordinate": {
+            "x": 640,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 70000,
+        "endsAt": 84000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 71000,
+        "endsAt": 85000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 72000,
+        "endsAt": 86000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 73000,
+        "endsAt": 87000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 73000,
+        "endsAt": 87000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 74000,
+        "endsAt": 88000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 74200,
+        "endsAt": 88200,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 75400,
+        "endsAt": 89400,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 76600,
+        "endsAt": 90600,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 77800,
+        "endsAt": 91800,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 79000,
+        "endsAt": 93000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 80200,
+        "endsAt": 94200,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 81400,
+        "endsAt": 95400,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 82600,
+        "endsAt": 96600,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 83000,
+        "endsAt": 97000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 83800,
+        "endsAt": 97800,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 360
+        },
+        "endingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 84000,
+        "endsAt": 98000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 85000,
+        "endsAt": 99000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 86000,
+        "endsAt": 100000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 87000,
+        "endsAt": 101000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 87000,
+        "endsAt": 101000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 88000,
+        "endsAt": 102000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 88200,
+        "endsAt": 102200,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 89400,
+        "endsAt": 103400,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 90600,
+        "endsAt": 104600,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 91800,
+        "endsAt": 105800,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 93000,
+        "endsAt": 107000,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 94200,
+        "endsAt": 108200,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 95400,
+        "endsAt": 109400,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 96600,
+        "endsAt": 110600,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 97000,
+        "endsAt": 121000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 97800,
+        "endsAt": 111800,
+        "startingCoordinate": {
+            "x": 920,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 98000,
+        "endsAt": 122000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 99000,
+        "endsAt": 123000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 100000,
+        "endsAt": 124000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 101000,
+        "endsAt": 125000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 101000,
+        "endsAt": 125000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 102000,
+        "endsAt": 126000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 102200,
+        "endsAt": 126200,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 103400,
+        "endsAt": 127400,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 104600,
+        "endsAt": 128600,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 105800,
+        "endsAt": 129800,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 107000,
+        "endsAt": 131000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 108200,
+        "endsAt": 132200,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 109400,
+        "endsAt": 133400,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 110600,
+        "endsAt": 134600,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 111800,
+        "endsAt": 135800,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 80
+        },
+        "endingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 121000,
+        "endsAt": 131000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 122000,
+        "endsAt": 132000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 123000,
+        "endsAt": 133000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 124000,
+        "endsAt": 134000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 125000,
+        "endsAt": 135000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 125000,
+        "endsAt": 135000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 126000,
+        "endsAt": 136000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 126200,
+        "endsAt": 136200,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 127400,
+        "endsAt": 137400,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 128600,
+        "endsAt": 138600,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 129800,
+        "endsAt": 139800,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 131000,
+        "endsAt": 141000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 131000,
+        "endsAt": 141000,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 7
+    },
+    {
+        "time": 132000,
+        "endsAt": 142000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 132200,
+        "endsAt": 142200,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 133000,
+        "endsAt": 143000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 133400,
+        "endsAt": 143400,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 134000,
+        "endsAt": 144000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 134600,
+        "endsAt": 144600,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 135000,
+        "endsAt": 145000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 135000,
+        "endsAt": 145000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 135800,
+        "endsAt": 145800,
+        "startingCoordinate": {
+            "x": 1200,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 136000,
+        "endsAt": 146000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 136200,
+        "endsAt": 146200,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 137400,
+        "endsAt": 147400,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 138600,
+        "endsAt": 148600,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 5
+    },
+    {
+        "time": 139800,
+        "endsAt": 149800,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 6
+    },
+    {
+        "time": 141000,
+        "endsAt": 157000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 141000,
+        "endsAt": 151000,
         "startingCoordinate": {
             "x": 1000,
             "y": 560
@@ -703,8 +2738,176 @@
         "elementId": 7
     },
     {
-        "time": 60000,
-        "endsAt": 66400,
+        "time": 142000,
+        "endsAt": 158000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 142200,
+        "endsAt": 152200,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 143000,
+        "endsAt": 159000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 143400,
+        "endsAt": 153400,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 144000,
+        "endsAt": 160000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 144600,
+        "endsAt": 154600,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 145000,
+        "endsAt": 161000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 145000,
+        "endsAt": 161000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 145800,
+        "endsAt": 155800,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 560
+        },
+        "endingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 146000,
+        "endsAt": 162000,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 146200,
+        "endsAt": 162200,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 147400,
+        "endsAt": 163400,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 148600,
+        "endsAt": 164600,
         "startingCoordinate": {
             "x": 1000,
             "y": 760
@@ -717,8 +2920,8 @@
         "elementId": 5
     },
     {
-        "time": 61000,
-        "endsAt": 67400,
+        "time": 149800,
+        "endsAt": 165800,
         "startingCoordinate": {
             "x": 1000,
             "y": 760
@@ -731,8 +2934,8 @@
         "elementId": 6
     },
     {
-        "time": 62000,
-        "endsAt": 68400,
+        "time": 151000,
+        "endsAt": 167000,
         "startingCoordinate": {
             "x": 1000,
             "y": 760
@@ -745,8 +2948,190 @@
         "elementId": 7
     },
     {
-        "time": 66400,
-        "endsAt": 71200,
+        "time": 152200,
+        "endsAt": 168200,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 153400,
+        "endsAt": 169400,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 154600,
+        "endsAt": 170600,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 155800,
+        "endsAt": 171800,
+        "startingCoordinate": {
+            "x": 1000,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 157000,
+        "endsAt": 169000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 158000,
+        "endsAt": 170000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 159000,
+        "endsAt": 171000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 160000,
+        "endsAt": 172000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 161000,
+        "endsAt": 173000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 161000,
+        "endsAt": 173000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 162000,
+        "endsAt": 174000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 162200,
+        "endsAt": 174200,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 163400,
+        "endsAt": 175400,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 164600,
+        "endsAt": 176600,
         "startingCoordinate": {
             "x": 680,
             "y": 760
@@ -759,8 +3144,8 @@
         "elementId": 5
     },
     {
-        "time": 67400,
-        "endsAt": 72200,
+        "time": 165800,
+        "endsAt": 177800,
         "startingCoordinate": {
             "x": 680,
             "y": 760
@@ -773,8 +3158,8 @@
         "elementId": 6
     },
     {
-        "time": 68400,
-        "endsAt": 73200,
+        "time": 167000,
+        "endsAt": 179000,
         "startingCoordinate": {
             "x": 680,
             "y": 760
@@ -787,8 +3172,190 @@
         "elementId": 7
     },
     {
-        "time": 71200,
-        "endsAt": 82400,
+        "time": 168200,
+        "endsAt": 180200,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 169000,
+        "endsAt": 197000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 169400,
+        "endsAt": 181400,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 170000,
+        "endsAt": 198000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 170600,
+        "endsAt": 182600,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 171000,
+        "endsAt": 199000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 171800,
+        "endsAt": 183800,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 760
+        },
+        "endingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 172000,
+        "endsAt": 200000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 173000,
+        "endsAt": 201000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 173000,
+        "endsAt": 201000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 174000,
+        "endsAt": 202000,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 174200,
+        "endsAt": 202200,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 175400,
+        "endsAt": 203400,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 176600,
+        "endsAt": 204600,
         "startingCoordinate": {
             "x": 680,
             "y": 520
@@ -801,8 +3368,8 @@
         "elementId": 5
     },
     {
-        "time": 72200,
-        "endsAt": 83400,
+        "time": 177800,
+        "endsAt": 205800,
         "startingCoordinate": {
             "x": 680,
             "y": 520
@@ -815,8 +3382,8 @@
         "elementId": 6
     },
     {
-        "time": 73200,
-        "endsAt": 84400,
+        "time": 179000,
+        "endsAt": 207000,
         "startingCoordinate": {
             "x": 680,
             "y": 520
@@ -829,8 +3396,190 @@
         "elementId": 7
     },
     {
-        "time": 82400,
-        "endsAt": 90400,
+        "time": 180200,
+        "endsAt": 208200,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 181400,
+        "endsAt": 209400,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 182600,
+        "endsAt": 210600,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 183800,
+        "endsAt": 211800,
+        "startingCoordinate": {
+            "x": 680,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 197000,
+        "endsAt": 217000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 198000,
+        "endsAt": 218000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 199000,
+        "endsAt": 219000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 200000,
+        "endsAt": 220000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 201000,
+        "endsAt": 221000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 201000,
+        "endsAt": 221000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 202000,
+        "endsAt": 222000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 202200,
+        "endsAt": 222200,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 203400,
+        "endsAt": 223400,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 204600,
+        "endsAt": 224600,
         "startingCoordinate": {
             "x": 120,
             "y": 520
@@ -843,8 +3592,8 @@
         "elementId": 5
     },
     {
-        "time": 83400,
-        "endsAt": 91400,
+        "time": 205800,
+        "endsAt": 225800,
         "startingCoordinate": {
             "x": 120,
             "y": 520
@@ -857,8 +3606,8 @@
         "elementId": 6
     },
     {
-        "time": 84400,
-        "endsAt": 92400,
+        "time": 207000,
+        "endsAt": 227000,
         "startingCoordinate": {
             "x": 120,
             "y": 520
@@ -871,8 +3620,190 @@
         "elementId": 7
     },
     {
-        "time": 90400,
-        "endsAt": 96800,
+        "time": 208200,
+        "endsAt": 228200,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 209400,
+        "endsAt": 229400,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 210600,
+        "endsAt": 230600,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 211800,
+        "endsAt": 231800,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 520
+        },
+        "endingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 217000,
+        "endsAt": 233000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 218000,
+        "endsAt": 234000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 219000,
+        "endsAt": 235000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 220000,
+        "endsAt": 236000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 221000,
+        "endsAt": 237000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 221000,
+        "endsAt": 237000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 222000,
+        "endsAt": 238000,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 222200,
+        "endsAt": 238200,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 223400,
+        "endsAt": 239400,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 224600,
+        "endsAt": 240600,
         "startingCoordinate": {
             "x": 120,
             "y": 920
@@ -885,8 +3816,8 @@
         "elementId": 5
     },
     {
-        "time": 91400,
-        "endsAt": 97800,
+        "time": 225800,
+        "endsAt": 241800,
         "startingCoordinate": {
             "x": 120,
             "y": 920
@@ -899,8 +3830,8 @@
         "elementId": 6
     },
     {
-        "time": 92400,
-        "endsAt": 98800,
+        "time": 227000,
+        "endsAt": 243000,
         "startingCoordinate": {
             "x": 120,
             "y": 920
@@ -913,8 +3844,190 @@
         "elementId": 7
     },
     {
-        "time": 96800,
-        "endsAt": 100800,
+        "time": 228200,
+        "endsAt": 244200,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 229400,
+        "endsAt": 245400,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 230600,
+        "endsAt": 246600,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 231800,
+        "endsAt": 247800,
+        "startingCoordinate": {
+            "x": 120,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 233000,
+        "endsAt": 243000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 12
+    },
+    {
+        "time": 234000,
+        "endsAt": 244000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 13
+    },
+    {
+        "time": 235000,
+        "endsAt": 245000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 14
+    },
+    {
+        "time": 236000,
+        "endsAt": 246000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 15
+    },
+    {
+        "time": 237000,
+        "endsAt": 247000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 2
+    },
+    {
+        "time": 237000,
+        "endsAt": 247000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 16
+    },
+    {
+        "time": 238000,
+        "endsAt": 248000,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 17
+    },
+    {
+        "time": 238200,
+        "endsAt": 248200,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 3
+    },
+    {
+        "time": 239400,
+        "endsAt": 249400,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 4
+    },
+    {
+        "time": 240600,
+        "endsAt": 250600,
         "startingCoordinate": {
             "x": 440,
             "y": 920
@@ -927,8 +4040,8 @@
         "elementId": 5
     },
     {
-        "time": 97800,
-        "endsAt": 101800,
+        "time": 241800,
+        "endsAt": 251800,
         "startingCoordinate": {
             "x": 440,
             "y": 920
@@ -941,8 +4054,15 @@
         "elementId": 6
     },
     {
-        "time": 98800,
-        "endsAt": 102800,
+        "time": 243000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 12
+    },
+    {
+        "time": 243000,
+        "endsAt": 253000,
         "startingCoordinate": {
             "x": 440,
             "y": 920
@@ -955,24 +4075,164 @@
         "elementId": 7
     },
     {
-        "time": 100800,
+        "time": 244000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 13
+    },
+    {
+        "time": 244200,
+        "endsAt": 254200,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 8
+    },
+    {
+        "time": 245000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 14
+    },
+    {
+        "time": 245400,
+        "endsAt": 255400,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 9
+    },
+    {
+        "time": 246000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 15
+    },
+    {
+        "time": 246600,
+        "endsAt": 256600,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 10
+    },
+    {
+        "time": 247000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 2
+    },
+    {
+        "time": 247000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 16
+    },
+    {
+        "time": 247800,
+        "endsAt": 257800,
+        "startingCoordinate": {
+            "x": 440,
+            "y": 920
+        },
+        "endingCoordinate": {
+            "x": 440,
+            "y": 720
+        },
+        "type": "MOVETO",
+        "elementId": 11
+    },
+    {
+        "time": 248000,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 17
+    },
+    {
+        "time": 248200,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 3
+    },
+    {
+        "time": 249400,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 4
+    },
+    {
+        "time": 250600,
         "x": 440,
         "y": 720,
         "type": "ATTACKER_SUCCEEDED",
         "elementId": 5
     },
     {
-        "time": 101800,
+        "time": 251800,
         "x": 440,
         "y": 720,
         "type": "ATTACKER_SUCCEEDED",
         "elementId": 6
     },
     {
-        "time": 102800,
+        "time": 253000,
         "x": 440,
         "y": 720,
         "type": "ATTACKER_SUCCEEDED",
         "elementId": 7
+    },
+    {
+        "time": 254200,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 8
+    },
+    {
+        "time": 255400,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 9
+    },
+    {
+        "time": 256600,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 10
+    },
+    {
+        "time": 257800,
+        "x": 440,
+        "y": 720,
+        "type": "ATTACKER_SUCCEEDED",
+        "elementId": 11
     }
 ]
