@@ -11,7 +11,7 @@ GunCar.prototype = {
             image:Konva.Assets.GUNCAR,
             width: 66,
             height: 33,
-            unitWidth: 33,
+            unitWidth: 66,
             offset:{x:33,y:17},
             tokenType:'GUNCAR'
         };
